@@ -85,7 +85,10 @@ Following are some important points about friend functions and classes:
 3) Friendhsip is different Not Inherited. (Expansion Needed) [link](https://www.geeksforgeeks.org/friend-class-function-cpp/) [link2](https://www.geeksforgeeks.org/inheritance-and-friendship-in-cpp/) [link3](https://www.geeksforgeeks.org/inheritance-in-c/)
 
 # ostream
-
+In C++, stream insertion operator “<<” is used for output and extraction operator “>>” is used for input. 
+We must know the following things before we start overloading these operators. 
+1) cout is an object of ostream class and cin is an object of istream class 
+2) These operators must be overloaded as a global function. And if we want to allow them to access private data members of the class, we must make them friend. [Expansion needed] [Source](https://www.geeksforgeeks.org/overloading-stream-insertion-operators-c/) [Source2](https://docs.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170) [Example](https://www.tutorialspoint.com/cplusplus/input_output_operators_overloading.htm)
 ```
 #include <iostream>
 using namespace std;
