@@ -162,5 +162,70 @@ int devide_by(int* val)
 What happened?
 Because of the way the program was written the integer which is essentially the pointer , get incremented instead of the the value it was referencing to,
 That is not what we would want to do, we would want to de-reference the pointer then increment the value, that is what second statement in the comment does.
+The syntax will be further discussed below. 
+
+### Pointer and Arrays
+
+Pointers and arrays are very similar, one can think of array as pointers to their first element. An array can be implicitly converted to the pointer of the proper type. 
+
+```
+int arr[10];
+int *point;
+point=arr;
+```
+The following operation is valid. 
+
+Full article: https://www.cplusplus.com/doc/tutorial/pointers/
+```
+// more pointers
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int numbers[5];
+  int * p;
+  p = numbers;  *p = 10;
+  p++;  *p = 20;
+  p = &numbers[2];  *p = 30;
+  p = numbers + 3;  *p = 40;
+  p = numbers;  *(p+4) = 50;
+  for (int n=0; n<5; n++)
+    cout << numbers[n] << ", ";
+  return 0;
+}
+```
+Output:
+```
+10,20,30,40,50,
+```
+The difference is similar that array once assigned a memory location/address will maintain that, whereas pointers can change their address. 
+Remember what pointers are ? They are basically the integer(address) itself.
+
+```
+a[5]=0;
+```
+Is actually de-referencing the address of 5th element of array a with the use of [] operator. 
+
+But arrays can be 2- Dimensional how will such an array have similarity with pointers?? 
+
+### Pointer to Pointers 
+Let's remember again, Pointers are just integers that point to memory. It very much possible to point at the integer value of pointers itself to. 
+```
+char a;
+char* b;
+char** c;
+a='z';
+b=&a;
+c=&b;
+```
+b is a pointer to a
+c is a pointer to b 
+
+Lets look at the same example but for 2D arrays
+![pointersandarrays](https://user-images.githubusercontent.com/103468688/164473801-aeb47900-73ef-4c4f-99ec-326de781d258.jpg)
+
+
+
 
 
