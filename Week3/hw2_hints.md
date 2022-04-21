@@ -134,6 +134,6 @@ How can we eliminate Implicit type conversions?
 Check Prof's notes for explicit keyword, it eliminates the compiler's tendency to do implicit data conversions.
 
 Further Reading on User Defined type conversions:
-https://docs.microsoft.com/en-us/cpp/cpp/user-defined-type-conversions-cpp?view=msvc-170#:~:text=A%20conversion%20produces%20a%20new,or%20between%20user%2Ddefined%20types.
-https://en.cppreference.com/w/cpp/language/cast_operator
-https://www.ibm.com/docs/en/zos/2.1.0?topic=only-user-defined-conversions
+[Source](https://docs.microsoft.com/en-us/cpp/cpp/user-defined-type-conversions-cpp?view=msvc-170#:~:text=A%20conversion%20produces%20a%20new,or%20between%20user%2Ddefined%20types.)
+[Source2](https://en.cppreference.com/w/cpp/language/cast_operator)
+[Source3](https://www.ibm.com/docs/en/zos/2.1.0?topic=only-user-defined-conversions)
