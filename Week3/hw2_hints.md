@@ -121,3 +121,19 @@ Output:
 ```
 5.6.92
 ```
+The last function in the homework is a little tricky and needs an understanding of user defined data conversions and how they can also be called by the compiler implicity. As you all know we are overloading operator double() to be able to do suitable tasks.
+```
+Rational r(1, 2);
+std::cout << (1 + r) << std::endl;
+```
+When (1+r) is defined within cout, there are two choices infront of the compiler and that is why an error message is displayed. Identifying the two choices is critical to be able to solve the homework. 
+1. Choice 1: convert r into double, then use pre-defined implicit conversions to convert int to double. once both are done the compiler invokes operator +(double,double) but this function signature will result in 1.5 as the output and that is not we want. 
+2. Choice 2: Since there is no operator+(int, Rational&) defined it will try to convert int to Rational, then use the user defined operator+ defined in binary operator overaloading to try to solve this, if it follows Choice 2. The output will be 3/2. Which is desired. 
+
+How can we eliminate Implicit type conversions?
+Check Prof's notes for explicit keyword, it eliminates the compiler's tendency to do implicit data conversions.
+
+Further Reading on User Defined type conversions:
+https://docs.microsoft.com/en-us/cpp/cpp/user-defined-type-conversions-cpp?view=msvc-170#:~:text=A%20conversion%20produces%20a%20new,or%20between%20user%2Ddefined%20types.
+https://en.cppreference.com/w/cpp/language/cast_operator
+https://www.ibm.com/docs/en/zos/2.1.0?topic=only-user-defined-conversions
