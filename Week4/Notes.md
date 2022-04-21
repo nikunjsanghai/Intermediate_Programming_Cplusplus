@@ -106,5 +106,61 @@ Output:
 2
 8
 ```
+Simple function call using pointers 
+```
+#include<iostream>
+using namespace std;
+int devide_by(int* value)
+{
+	int val_local;
+	*value = (*value) / 5;
+	return *value;
+}
+	int main()
+	{
+		int* pointer;
+		int val = 10;
+		pointer = &val;
+		cout << *pointer << endl;
+		cout << devide_by(pointer);
+	}
+  
+ ```
+ Output:
+ ```
+ 10
+ 2
+ ```
+ Getting familiar with the syntax 
+ ```
+ #include<iostream>
+using namespace std;
+int devide_by(int* val)
+{
+	int val_local;
+	*val = (*val) / 5;
+	*val++;// what will this line do?
+	cout << *val << endl;
+	//(*val)++; correct way to do it. Why is this way correct?
+	return *val;
+}
+	int main()
+	{
+		int* pointer;
+		int val = 10;
+		pointer = &val;
+		cout << *pointer << endl;
+		cout << devide_by(pointer);
+	}
+  ```
+  Output:
+  ```
+  10
+-858993460
+-858993460
+```
+What happened?
+Because of the way the program was written the integer which is essentially the pointer , get incremented instead of the the value it was referencing to,
+That is not what we would want to do, we would want to de-reference the pointer then increment the value, that is what second statement in the comment does.
 
 
