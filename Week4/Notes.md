@@ -225,6 +225,11 @@ c is a pointer to b
 Lets look at the same example but for 2D arrays
 ![pointersandarrays](https://user-images.githubusercontent.com/103468688/164473801-aeb47900-73ef-4c4f-99ec-326de781d258.jpg)
 
+### References and Reading Material 
+https://www.geeksforgeeks.org/pointers-c-examples/
+https://www.geeksforgeeks.org/features-and-use-of-pointers-in-c-c/
+https://docs.microsoft.com/en-us/cpp/cpp/pointers-cpp?view=msvc-170
+https://www.tutorialspoint.com/cplusplus/cpp_pointers.htm
 
 
 
