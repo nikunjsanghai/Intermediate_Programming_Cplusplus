@@ -83,19 +83,20 @@ int main() {
 ```
 
 https://docs.microsoft.com/en-us/cpp/cpp/increment-and-decrement-operator-overloading-cpp?view=msvc-170
-# Lecture Annotations [Not Ready]
+# Lecture Annotations
 ## 11th April
 ### Struct 
+Struct mostly behaves very similarly to class, a major difference between Struct and Class is that all variables within a struct are public by default, so if you use a struct you mostly do not have to worry about access specifiers. 
 ### two ways the computer tries to make sense of 
-sum=e1+e2
+sum=e1+e2 lets consider both e1 and e2 to be objects, we know we cannot perform normal operations without overloading the +operator 
 operator+(e1,e2)
 e1.operator+(e2)
 
 Function Signatures 
 1)Point2D operator+(Point2D,const Point2D&)
-virst argument by value and second one by constant reference
+first argument by value and second one by constant reference
 2)Point2D Point2D::operator+(Point2D&) const
-If you add e1 with e2 it should make something new  but not change value of e2 and e1. 
+If you add e1 with e2 it should make something new but not change value of e2 and e1, that is why we add the const keyword at the end of the function signature.  
 
 Convention 1: 
 Choice 1 is better. It allows more implicit convertions. 
@@ -118,45 +119,5 @@ e1 +=e2;
 
 what would the signatures be?
 
-1)POint2D& operator+=(Point2D&,const Point2D&)
-2)Point2D& Point2D::operator+=(const Point2D&)
-
-There is a convention , it is that member function method 2) is better. 
-int i=1;
-int j=2;
-int& r= (i+=j);
- we return a reference in r. 
-i=8;
-
-Operator+ is made a free function so that conversions are allowed but there is a trade off between the tow methods. 1) allows conversions but 2) allows access to private data variables and member functions. 
-
-### this ,, * this
-### pointers
-## de reference the pointer 
-
-Point 2D& r= (e1+= e2);
-e1.print();
-e1.x=8;
-r.print();
-
-13 th April: 
-
-Operator Overloading is basically enabling another way of writing or calling the associated functions 
-Point2D sum =operator+(e1,e2);
-same as
-Point2D sum =e1+e2;
-
-Point2D linear_combination =3* e1 +4* e2;
-same as
-Point2D linear_combination =operator+(operator*(3,e1),operator*(4,e2));
-
-Cout it is an object of Ostream. Further read in the notes.  
-
-std::ostream& g(std::ostream& out){
-out<<"We can make use of the parameter 'out'"<<std::endl;
-return out;
-}
-int main(){
-g(std::cout)<<"and use the reference that is returned\n\n";
-}
+Further Reading please refer to PIC10B_2A by Tejas Vishwanath. 
 
