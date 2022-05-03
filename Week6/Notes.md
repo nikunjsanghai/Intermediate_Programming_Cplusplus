@@ -137,3 +137,5 @@ A resource is always released at a known point in the program, which you can con
 Only deterministic destructors like those in C++ can handle memory and non-memory resources equally.
 
 ### References for further reading: [Link1](https://www.geeksforgeeks.org/life-cycle-of-objects-in-c-with-example/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp?view=msvc-170) [Link3](https://en.cppreference.com/w/cpp/language/lifetime)
+
+### Copy Constructor and shallow and deep copy please refer to PIC_10B_2A_Week6
