@@ -28,7 +28,7 @@ A destructor is a special member function that is called when the lifetime of an
 * A destructor should be declared in the public section of the class.
 * The programmer cannot access the address of destructor.
 
-Destructor Implementation:
+Destructor Implementation in Stack:
 ```
 #include <iostream>
 using namespace std;
@@ -66,6 +66,55 @@ Constructor called
 Destructor called
 Destructor called 
 ```
+
+Destructor Implementation in Heap Memory: 
+```
+class String {
+private:
+    char* s;
+    int size;
+ 
+public:
+    String(char*); // constructor
+    ~String(); // destructor
+};
+ 
+String::String(char* c)
+{
+    size = strlen(c);
+    s = new char[size + 1];
+    strcpy(s, c);
+}
+String::~String() { delete[] s; }
+```
+One more Example:
+```
+class widget
+{
+private:
+    int* data;
+public:
+    widget(const int size) { data = new int[size]; } // acquire
+    ~widget() { delete[] data; } // release
+    void do_something() {}
+};
+
+void functionUsingWidget() {
+    widget w(1000000);   // lifetime automatically tied to enclosing scope
+                        // constructs w, including the w.data member
+    w.do_something();
+
+} // automatic destruction and deallocation for w and w.data
+```
+
+### Can there be more than one destructor in a class?   
+
+No, there can only one destructor in a class with classname preceded by ~, no parameters and no return type.
+
+### When do we need to write a user-defined destructor?   
+
+If we do not write our own destructor in class, compiler creates a default destructor for us. The default destructor works fine unless we have dynamically allocated memory or pointer in class. When a class contains a pointer to memory allocated in class, we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leak.  
+
 #### References for further reading:[Link1](https://www.geeksforgeeks.org/destructors-c/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/destructors-cpp?view=msvc-170) [Link3](https://www.ibm.com/docs/en/i/7.1?topic=only-destructors-c) [Link4](https://en.cppreference.com/w/cpp/language/destructor)
 ### Object Lifetime 
 Unlike managed languages, C++ doesn't have automatic garbage collection. 
