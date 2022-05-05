@@ -19,3 +19,7 @@ Syntax for copy assignment operator:
 ```
 class-name & class-name :: operator= ( class-name && )
 ```
+
+Intitializer list resources: [Link1](https://en.cppreference.com/w/cpp/utility/initializer_list) [Link2](https://www.cplusplus.com/reference/initializer_list/initializer_list/) [Link3](https://www.learncpp.com/cpp-tutorial/stdinitializer_list/) [Link4](https://docs.microsoft.com/en-us/cpp/standard-library/initializer-list-class?view=msvc-170)
+
+Ranged based for loop:[Link1](https://en.cppreference.com/w/cpp/language/range-for)
