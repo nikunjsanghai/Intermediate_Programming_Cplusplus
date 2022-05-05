@@ -139,3 +139,22 @@ Only deterministic destructors like those in C++ can handle memory and non-memor
 ### References for further reading: [Link1](https://www.geeksforgeeks.org/life-cycle-of-objects-in-c-with-example/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp?view=msvc-170) [Link3](https://en.cppreference.com/w/cpp/language/lifetime)
 
 ### Copy Constructor and shallow and deep copy please refer to PIC_10B_2A_Week6
+
+### Move constructors and Move assignment operator 
+
+#### What is a Move Constructor?  
+
+The copy constructors in C++ work with the l-value references and copy semantics(copy semantics means copying the actual data of the object to another object rather than making another object to point the already existing object in the heap). While move constructors work on the r-value references and move semantics(move semantics involves pointing to the already existing object in the memory).
+
+On declaring the new object and assigning it with the r-value, firstly a temporary object is created, and then that temporary object is used to assign the values to the object. Due to this the copy constructor is called several times and increases the overhead and decreases the computational power of the code. To avoid this overhead and make the code more efficient we use move constructors.
+
+#### Why Move Constructors are used?
+
+Move constructor moves the resources in the heap, i.e., unlike copy constructors which copy the data of the existing object and assigning it to the new object move constructor just makes the pointer of the declared object to point to the data of temporary object and nulls out the pointer of the temporary objects. Thus, move constructor prevents unnecessarily copying data in the memory.  
+
+Work of move constructor looks a bit like default member-wise copy constructor but in this case, it nulls out the pointer of the temporary object preventing more than one object to point to same memory location.
+
+Reference for reading material: [Link1](https://www.geeksforgeeks.org/move-constructors-in-c-with-examples/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=msvc-170) [Link3](https://en.cppreference.com/w/cpp/language/move_constructor)
+#### Move assignment operator: [Link1](https://en.cppreference.com/w/cpp/language/move_assignment) 
+#### Copy constructors: [Link1](https://www.geeksforgeeks.org/copy-constructor-in-cpp/) 
+#### Copy assignment operator: [Link1](https://en.cppreference.com/w/cpp/language/copy_assignment) 
