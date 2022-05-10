@@ -23,3 +23,26 @@ class-name & class-name :: operator= ( class-name && )
 Intitializer list resources: [Link1](https://en.cppreference.com/w/cpp/utility/initializer_list) [Link2](https://www.cplusplus.com/reference/initializer_list/initializer_list/) [Link3](https://www.learncpp.com/cpp-tutorial/stdinitializer_list/) [Link4](https://docs.microsoft.com/en-us/cpp/standard-library/initializer-list-class?view=msvc-170)
 
 Ranged based for loop:[Link1](https://en.cppreference.com/w/cpp/language/range-for)
+```
+std::vector<int> v;
+    print_info(v, 0);
+
+
+    int* ptr = v.data();  // store copy of v.ptr
+
+
+    for (int i = 1; i <= 7; ++i) {
+        v.push_back(i * 11);
+
+        if (ptr != &v[0]) {
+            std::cout << "there's been a memory reallocation" << std::endl;
+            ptr = &v[0];
+        }
+        print_info(v, v.capacity());
+    }
+```
+
+Let's look at the entire code, when v is initialized without any element pointer will surely point at location of V[0] , so (ptr != &v[0])  is checking whether or not there has been any memory allocation. Let's assume the name of the memory location is 12345 for V[0], we know pointers also work like arrays *(ptr+1) will give the value of the next element stored. so if the memory location is different that means the pointer is pointing to something other than 12345 which was the location of V[0] , the only reason that can happen in the main file typed as the way it is that there has been some memory allocation and the pointer might be pointing to V[1] or V[2] etc. 
+
+2)You can use the new_capacity() in the reserve function to reserve more memory, important point to remember is that just changing the cap value does not allocate more memory from the computer's end.
+3) 0x0 is just another way of writing nullptr as we know points can point to nullptr, hopefully you can connect the dots now. 
