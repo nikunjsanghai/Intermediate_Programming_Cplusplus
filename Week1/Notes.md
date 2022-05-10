@@ -119,6 +119,43 @@ End of execution
 ```
 Example with initializer list:
 ```
+#include<iostream>
+using namespace std;
+class demon
+{
+public:
+	demon()
+	{
+		cout << "default" << endl;
+	}
+	demon(int x)
+	{
+		cout << "default and something..." << x << endl;
+	}
+};
+class demonstrating
+{
+private:
+	int x;
+	int y;
+	demon d;
+public:
+	demonstrating() :x(0), y(0), d(demon(5))
+	{
+		cout << "Default constructor being called" << endl;
+	}
+	demonstrating(int x1, int y1) :x(x1), y(y1) {}
+};
+
+int main()
+{
+	demonstrating d1;
+	cout << "End of execution";
+	return 0;
+}
+```
+Output:
+```
 default and something...5
 Default constructor being called
 End of execution
