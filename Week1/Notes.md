@@ -2,8 +2,8 @@
 It is not to be confused with std::initializer_list. In the definition of a constructor of a class the initlizer list specifies values of non-static data members. 
 
 Example:
-
-include<iostream.h>
+```
+#include<iostream>
 using namespace std;
 class demonstrating
 {
@@ -22,3 +22,4 @@ demonstrating d;
 demonstrating d(1,2);
 cout<<"End of execution";
 }
+```
