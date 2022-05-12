@@ -175,6 +175,16 @@ An iterator is an object (like a pointer) that points to an element inside the c
 There are different kinds which support different functionality:.   
 ![image](https://user-images.githubusercontent.com/103468688/168152009-17d5c9c1-88f3-4b7d-9f48-346c32a1c276.png).   
 
+Input Iterators: They are the weakest of all the iterators and have very limited functionality. They can only be used in a single-pass algorithms, i.e., those algorithms which process the container sequentially, such that no element is accessed more than once.   
+
+Output Iterators: Just like input iterators, they are also very limited in their functionality and can only be used in single-pass algorithm, but not for accessing elements, but for being assigned elements.    
+
+Forward Iterator: They are higher in the hierarchy than input and output iterators, and contain all the features present in these two iterators. But, as the name suggests, they also can only move in a forward direction and that too one step at a time.   
+
+Bidirectional Iterators: They have all the features of forward iterators along with the fact that they overcome the drawback of forward iterators, as they can move in both the directions, that is why their name is bidirectional.   
+
+Random-Access Iterators: They are the most powerful iterators. They are not limited to moving sequentially, as their name suggests, they can randomly access any element inside the container. They are the ones whose functionality are same as pointers.   
+
 For now let just look at basic implemetation of iterators and reflect on the difference using iterators makes in programming:
 ```
 // C++ program to demonstrate iterators
