@@ -175,7 +175,61 @@ An iterator is an object (like a pointer) that points to an element inside the c
 There are different kinds which support different functionality:.   
 ![image](https://user-images.githubusercontent.com/103468688/168152009-17d5c9c1-88f3-4b7d-9f48-346c32a1c276.png).   
 
-For now let just look at one type of iterator, random access iterator in vector and reflect on the difference using iterators make in programming
+For now let just look at basic implemetation of iterators and reflect on the difference using iterators makes in programming:
+```
+// C++ program to demonstrate iterators
+
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+	// Declaring a vector
+	vector<int> v = { 1, 2, 3 };
+
+	// Declaring an iterator
+	vector<int>::iterator i;
+
+	int j;
+
+	cout << "Without iterators = ";
+	
+	// Accessing the elements without using iterators
+	for (j = 0; j < 3; ++j)
+	{
+		cout << v[j] << " ";
+	}
+
+	cout << "\nWith iterators = ";
+	
+	// Accessing the elements using iterators
+	for (i = v.begin(); i != v.end(); ++i)
+	{
+		cout << *i << " ";
+	}
+
+	// Adding one more element to vector
+	v.push_back(4);
+
+	cout << "\nWithout iterators = ";
+	
+	// Accessing the elements without using iterators
+	for (j = 0; j < 4; ++j)
+	{
+		cout << v[j] << " ";
+	}
+
+	cout << "\nWith iterators = ";
+	
+	// Accessing the elements using iterators
+	for (i = v.begin(); i != v.end(); ++i)
+	{
+		cout << *i << " ";
+	}
+
+	return 0;
+}
+```
 
 
 
