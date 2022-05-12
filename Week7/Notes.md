@@ -172,6 +172,8 @@ int main()
 An iterator is an object (like a pointer) that points to an element inside the container. We can use iterators to move through the contents of the container. They can be visualized as something similar to a pointer pointing to some location and we can access the content at that particular location using them. Iterators play a critical role in connecting algorithm with containers along with the manipulation of data stored inside the containers. The most obvious form of an iterator is a pointer. A pointer can point to elements in an array and can iterate through them using the increment operator (++). But, all iterators do not have similar functionality as that of pointers. Depending upon the functionality of iterators they can be classified into five categories, as shown in the diagram below with the outer one being the most powerful one and consequently the inner one is the least powerful in terms of functionality.  
 
 ![image](https://user-images.githubusercontent.com/103468688/168027966-1ff35463-bcd5-4eb7-ac54-59787ee34916.png).   
+There are different kinds which support different functionality:.   
+![image](https://user-images.githubusercontent.com/103468688/168152009-17d5c9c1-88f3-4b7d-9f48-346c32a1c276.png).   
 
 For now let just look at one type of iterator, random access iterator in vector and reflect on the difference using iterators make in programming
 
@@ -182,6 +184,46 @@ Now each one of these iterators are not supported by all the containers in STL, 
 
 ![image](https://user-images.githubusercontent.com/103468688/168028238-0adfd2a9-3605-469a-9269-95e8e7f4413a.png)
 
+
+
+
+
+
+```
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+    // Declaring a vector
+    vector<int> v = { 1, 2, 7,9,6,5,8,4,3 };
+
+    // Declaring an iterator
+    vector<int>::iterator i;
+
+    int j;
+
+    // Inserting element using iterators
+    for (i = v.begin(); i != v.end(); ++i) {
+        if (i == v.begin()) {
+            i = v.insert(i, 5);
+            // inserting 5 at the beginning of v
+        }
+    }
+
+    // v contains 5 1 2 3
+
+    // Deleting a element using iterators
+   // Type your code here!
+
+    // Accessing the elements using iterators
+    for (i = v.begin(); i != v.end(); ++i) {
+        cout << *i << " ";
+    }
+
+    return 0;
+}
+```
 
 
 
