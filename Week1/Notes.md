@@ -30,7 +30,8 @@ Syntax:
 #endif
 ```
 
-
+# Classes vs Structs
+Classes have their member functions and variables declared as private and if you don't declare them public( modify the visibility of the components of a class) they by default tend to remain that way. Structs have their member functions and variable declared as public by default. Structs are declared just because to maintain backward compatibility between C and C++. 
 
 
 
