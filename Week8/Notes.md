@@ -18,4 +18,4 @@ we have access to a lot of STL functionality, we can use .begin(), .size(), the 
 ```
 #include<array> // is needed to run std::array
 ```
-Are vectors allocated on the stack or the heap? [Link1](
+Are vectors allocated on the stack or the heap? [Link1](https://stackoverflow.com/questions/8036474/when-vectors-are-allocated-do-they-use-memory-on-the-heap-or-the-stack#:~:text=So%20no%20matter%20how%20you,always%20allocated%20on%20the%20heap%20.)
