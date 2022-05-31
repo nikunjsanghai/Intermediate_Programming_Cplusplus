@@ -263,3 +263,7 @@ Output:
 ```
 warning: dynamic_cast of ‘Derived1 d1’ to ‘class Derived2&’ can never succeed Derived2& r1 = dynamic_cast<Derived2&>(d1);
 ```
+Only relevant for extra knowledge: 
+
+How does C++ execute dynamic casting, it uses something called RTTI.
+Run-time type information (RTTI) is a mechanism that allows the type of an object to be determined during program execution. [link](https://docs.microsoft.com/en-us/cpp/cpp/run-time-type-information?view=msvc-170)
