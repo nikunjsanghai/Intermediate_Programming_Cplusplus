@@ -1,0 +1,1 @@
+Reference Links for Abstract Classes and Pure virtual function: [Link](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) [Link](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/) [Link](https://docs.microsoft.com/en-us/cpp/cpp/abstract-classes-cpp?view=msvc-170) [Link](https://en.cppreference.com/w/cpp/language/abstract_class)
