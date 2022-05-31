@@ -77,5 +77,5 @@ B()
 ```
 This would only call A's A(int) constructor and not its default constructor. In this example, the difference is negligible, but imagine if you will that A's default constructor did more, such as allocating memory or opening files. You wouldn't want to do that unnecessarily.   
 	
-### Reference Links for Exception handling
+### Reference Links for Exception handling: [link](https://www.geeksforgeeks.org/exception-handling-c/) [link](https://www.ibm.com/docs/en/zos/2.4.0?topic=reference-exception-handling-c-only) [link](https://www.geeksforgeeks.org/exception-handling-c/) [link](https://docs.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-170) [link](https://en.cppreference.com/w/cpp/error)
 ### Reference links for std::logic_error:  [link](https://docs.microsoft.com/en-us/cpp/standard-library/logic-error-class?view=msvc-170) [link](https://stackoverflow.com/questions/46489103/why-is-there-stdlogic-error)[link](https://en.cppreference.com/w/cpp/error/logic_error) 
