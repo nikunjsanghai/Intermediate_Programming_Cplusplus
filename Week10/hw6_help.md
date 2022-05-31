@@ -45,4 +45,34 @@ Output:
 This is a Vehicle
 This is a 4 wheeler Vehicle
 ```
-  
+	
+	
+One more Example 
+```
+class A
+{
+public:
+    A() { x = 0; }
+    A(int x_) { x = x_; }
+    int x;
+};
+
+class B
+{
+public:
+    B()
+    {
+        a.x = 3;
+    }
+private:
+    A a;
+};
+```
+In this case, the constructor for B will call the default constructor for A, and then initialize a.x to 3. A better way would be for B's constructor to directly call A's constructor in the initializer list:
+```
+B()
+  : a(3)
+{
+}
+	```
+This would only call A's A(int) constructor and not its default constructor. In this example, the difference is negligible, but imagine if you will that A's default constructor did more, such as allocating memory or opening files. You wouldn't want to do that unnecessarily.  
