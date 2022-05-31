@@ -74,5 +74,5 @@ B()
   : a(3)
 {
 }
-	```
+```
 This would only call A's A(int) constructor and not its default constructor. In this example, the difference is negligible, but imagine if you will that A's default constructor did more, such as allocating memory or opening files. You wouldn't want to do that unnecessarily.  
