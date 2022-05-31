@@ -76,3 +76,4 @@ B()
 }
 ```
 This would only call A's A(int) constructor and not its default constructor. In this example, the difference is negligible, but imagine if you will that A's default constructor did more, such as allocating memory or opening files. You wouldn't want to do that unnecessarily.  
+std::logic_error [link](https://docs.microsoft.com/en-us/cpp/standard-library/logic-error-class?view=msvc-170) [link](https://stackoverflow.com/questions/46489103/why-is-there-stdlogic-error)[link](https://en.cppreference.com/w/cpp/error/logic_error) 
