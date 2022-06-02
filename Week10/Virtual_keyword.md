@@ -1,7 +1,7 @@
  Reference Links:
  Virtual Function:[link](https://www.geeksforgeeks.org/virtual-function-cpp/).   
  Difference between Virtual Function and Pure Virtual Function: [link](https://www.geeksforgeeks.org/difference-between-friend-function-and-virtual-function-in-cpp/?ref=rp).    
- Virtual Distructor:[link](https://www.geeksforgeeks.org/virtual-destructor/?ref=rp).    
+ Virtual Destructor:[link](https://www.geeksforgeeks.org/virtual-destructor/?ref=rp).    
 Pure Virtual Function:[link](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/?ref=rp).     
 Virtual Function and Run-time Polymorphism: [link](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-cpp/?ref=rp).     
 
