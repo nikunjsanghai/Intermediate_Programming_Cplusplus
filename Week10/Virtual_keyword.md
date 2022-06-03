@@ -4,10 +4,10 @@
 Virtual Destructor:[link](https://www.geeksforgeeks.org/virtual-destructor/?ref=rp).    
 Pure Virtual Function:[link](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/?ref=rp).     
 Virtual Function and Run-time Polymorphism: [link](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-cpp/?ref=rp).     
-Virtual Base Class: [link](https://www.geeksforgeeks.org/virtual-base-class-in-c/)
-Run-Time Polymorphism in different types of inheritance: [link](https://www.geeksforgeeks.org/runtime-polymorphism-in-various-types-of-inheritance-in-c/?ref=rp)
-Inheritance in C++:[link](https://www.geeksforgeeks.org/inheritance-in-c/) 
-Virtual Pointer: [link](https://stackoverflow.com/questions/4658627/virtual-pointer)
+Virtual Base Class: [link](https://www.geeksforgeeks.org/virtual-base-class-in-c/).   
+Run-Time Polymorphism in different types of inheritance: [link](https://www.geeksforgeeks.org/runtime-polymorphism-in-various-types-of-inheritance-in-c/?ref=rp).   
+Inheritance in C++:[link](https://www.geeksforgeeks.org/inheritance-in-c/).    
+Virtual Pointer: [link](https://stackoverflow.com/questions/4658627/virtual-pointer).   
 
 
 Static Keyword: [link](https://www.geeksforgeeks.org/static-keyword-cpp/) [link](https://stackoverflow.com/questions/15235526/the-static-keyword-and-its-various-uses-in-c).     
