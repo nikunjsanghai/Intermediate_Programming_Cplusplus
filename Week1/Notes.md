@@ -197,3 +197,6 @@ Default constructor being called
 End of execution
 ```
 Further reading: [link1](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
+
+### Difference between while(cin>>number) and while(cin)
+
