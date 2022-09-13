@@ -1,4 +1,105 @@
- 
+### L and R values 
+For PIC 10A you guys mostly read basics of C++ Programming like functions, variables, types of variables and things such as function overloading.
+
+**lvalue:** simply means an object that has an identifiable location in memory (i.e. having an address).                          
+
+In any assignment statement “lvalue” must have the capability to store the data.               
+lvalue cannot be a function, expression (like a+b) or a constant (like 3 , 4 , etc.).                    
+
+“l-value” refers to memory location which identifies an object. l-value may appear as either left hand or right hand side of an assignment operator(=). l-value often represents as identifier. Expressions referring to modifiable locations are called “modifiable l-values“. A modifiable l-value cannot have an array type, an incomplete type, or a type with the const attribute. For structures and unions to be modifiable lvalues, they must not have any members with the const attribute. The name of the identifier denotes a storage location, while the value of the variable is the value stored at that location. An identifier is a modifiable lvalue if it refers to a memory location and if its type is arithmetic, structure, union or pointer. For example, if ptr is a pointer to a storage region, then \*ptr is a modifiable l-value that designates the storage region to which ptr points. In C, the concept was renamed as “locator value”, and referred to expressions that locate (designate) objects.
+
+**Example:**
+```
+// declare 'a' an object of type 'int'
+int a;
+
+// a is an expression referring to an
+// 'int' object as l-value
+a = 1;
+
+int b = a; // Ok, as l-value can appear on right
+
+// Switch the operand around '=' operator
+9 = a;
+
+// Compilation error:
+// as assignment is trying to change the
+// value of assignment operator
+```
+
+**r-value** simply means, an object that has no identifiable location in memory (i.e. having an address).                           
+                                        
+Anything that is capable of returning a constant expression or value.                           
+Expression like a+b will return some constant.  
+
+r-value” refers to data value that is stored at some address in memory. A r-value is an expression, that can’t have a value assigned to it, which means r-value can appear on right but not on left hand side of an assignment operator(=).
+```
+// declare 'a', 'b' an object of type 'int'
+int a = 1, b;
+
+a + 1 = b; // Error, left expression is
+  // is not variable(a + 1)
+
+// declare pointer variable 'p', and 'q'
+int *p, *q; // *p, *q are lvalue
+
+*p = 1; // valid l-value assignment
+
+// below is invalid - "p + 2" is not an l-value
+// p + 2 = 18;
+
+q = p + 5; // valid - "p + 5" is an r-value
+
+// Below is valid - dereferencing pointer
+// expression gives an l-value
+*(p + 2) = 18;
+
+p = &b;
+
+int arr[20]; // arr[12] is an lvalue; equivalent
+   // to *(arr+12)
+   // Note: arr itself is also an lvalue
+
+struct S { int m; };
+
+struct S obj; // obj and obj.m are lvalues
+
+// ptr-> is an lvalue; equivalent to (*ptr).m
+// Note: ptr and *ptr are also lvalues
+struct S* ptr = &obj;
+```
+The unary & (address-of) operator requires an l-value as its operand. That is, &n is a valid expression only if n is an l-value. Thus, an expression such as &12 is an error. Again, 12 does not refer to an object, so it’s not addressable. For instance, 
+```
+// declare 'a' as int variable and
+// 'p' as pointer variable
+int a, *p;
+
+p = &a; // ok, assignment of address
+  // at l-value
+
+&a = p; // error: &a is an r-value
+
+int x, y;
+
+( x < y ? y : x) = 0; // It's valid because the ternary
+    // expression preserves the "lvalue-ness"
+    // of both its possible return values
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Each C++ expression (an operator with its operands, a literal, a variable name, etc.) is characterized by two independent properties: a type and a value category. Each expression has some non-reference type, and each expression belongs to exactly one of the three primary value categories: pr value, x value, and l value.
 
 
