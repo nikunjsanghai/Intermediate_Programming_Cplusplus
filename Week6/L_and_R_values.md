@@ -88,18 +88,7 @@ int x, y;
 
 **DO NOT read further if your grasp of l and r values in C++ is not clear. It will only get more and more confusing.**
 
-### \[ADVANCED]  value types in C++
-
-
-
-
-
-
-
-
-
-
-
+### \[ADVANCED]  value types in C++                
 
 Each C++ expression (an operator with its operands, a literal, a variable name, etc.) is characterized by two independent properties: a type and a value category. Each expression has some non-reference type, and each expression belongs to exactly one of the three primary value categories: pr value, x value, and l value.
 
@@ -112,7 +101,13 @@ r value
 l value               
 xv alue              
 gl value                
-pr value               
+pr value      
+
+**An lvalue has identity** What does it mean for a value to have identity? If you have (or you can take) the memory address of a value, and use it safely, then the value has identity. That way, you can do more than compare the contents of values—you can compare or distinguish them by identity.                     
+
+An lvalue has identity. It's now a matter of only historical interest that the "l" in "lvalue" is an abbreviation of "left" (as in, the left-hand-side of an assignment). In C++, an lvalue can appear on the left or on the right of an assignment. The "l" in "lvalue", then, doesn't actually help you to comprehend nor define what they are. You need only to understand that what we call an lvalue is a value that has identity.                       
+
+Examples of expressions that are lvalues include: a named variable or constant; or a function that returns a reference. Examples of expressions that are not lvalues include: a temporary; or a function that returns by value.  
 
 
 
