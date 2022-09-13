@@ -86,6 +86,7 @@ int x, y;
     // of both its possible return values
 ```
 
+**DO NOT read further if your grasp of l and r values in C++ is not clear. It will only get more and more confusing.**
 
 
 
