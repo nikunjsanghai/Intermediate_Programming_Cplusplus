@@ -297,3 +297,4 @@ bool check_prime(int n) {
   return is_prime;
 }
 ```
+Links: [link](https://www.geeksforgeeks.org/check-if-a-number-is-palindrome/) [link](https://www.geeksforgeeks.org/program-nth-catalan-number/?ref=lbp) [link](https://www.geeksforgeeks.org/bell-numbers-number-of-ways-to-partition-a-set/?ref=lbp) [link](https://www.geeksforgeeks.org/gold-mine-problem/?ref=lbp) [link](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/?ref=lbp) [link](https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/?ref=lbp)
