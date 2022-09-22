@@ -56,3 +56,4 @@ Question 6:(Armstrong Number) A positive integer is called an Armstrong number (
 ```
 abcd... = an + bn + cn + dn + ...
 ```
+Question 7:(Sum of 2 primes) Check Whether a Number can be Expressed as a Sum of Two Prime Numbers                  
