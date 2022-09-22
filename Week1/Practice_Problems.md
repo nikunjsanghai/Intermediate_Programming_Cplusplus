@@ -50,6 +50,9 @@ Question 4:
      * * * * 
     * * * * * 
 ```
-Question 5:(Palindrome Number) This program reverses an integer (entered by the user) using while loop. Then, if statement is used to check whether the reversed number is equal to the original number or not.
-```
+Question 5:(Palindrome Number) This program reverses an integer (entered by the user) using while loop. Then, if statement is used to check whether the reversed number is equal to the original number or not.              
 
+Question 6:(Armstrong Number) A positive integer is called an Armstrong number (of order n) if
+```
+abcd... = an + bn + cn + dn + ...
+```
