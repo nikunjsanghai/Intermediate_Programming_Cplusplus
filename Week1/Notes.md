@@ -311,8 +311,8 @@ If a not exact match is found:–
 1)Char, Unsigned char, and short are promoted to an int.                        
 2)Float is promoted to double  
                                        
-If no match is found:
-3)C++ tries to find a match through the standard conversion.                                        
+If no match is found:                      
+3)C++ tries to find a match through the standard conversion.                                                          
 4)ELSE ERROR                          
 
 [link](https://owlcation.com/stem/Function-Overloading-in-C-with-Example) [link](https://www.programiz.com/cpp-programming/function-overloading) [link](https://www.programiz.com/cpp-programming/default-argument) [link](https://www.geeksforgeeks.org/function-overloading-c/) [link](https://www.geeksforgeeks.org/function-overloading-in-c/)                     
