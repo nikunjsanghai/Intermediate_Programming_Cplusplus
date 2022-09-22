@@ -199,7 +199,121 @@ End of execution
 Further reading: [link1](https://www.geeksforgeeks.org/when-do-we-use-initializer-list-in-c/)
 
 ### Difference between while(cin>>number) and while(cin)
-### Funtion Overloading:            
+### Funtion Overloading:         
+Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. When a function name is overloaded with different jobs it is called Function Overloading. In Function Overloading “Function” name should be the same and the arguments should be different.       
+1)Parameters should have a different type        
+```
+add(int a, int b)
+add(double a, double b)
+```
+Implementation:
+```
+#include <iostream>
+using namespace std;
+
+
+void add(int a, int b)
+{
+cout << "sum = " << (a + b);
+}
+
+void add(double a, double b)
+{
+	cout << endl << "sum = " << (a + b);
+}
+
+// Driver code
+int main()
+{
+	add(10, 2);
+	add(5.3, 6.2);
+
+	return 0;
+}
+```
+Output:
+```
+sum = 12
+sum = 11.5
+```
+2)Parameters should have a different number 
+```
+add(int a, int b)
+add(int a, int b, int c)
+```
+Implementation:
+```
+#include <iostream>
+using namespace std;
+
+void add(int a, int b)
+{
+cout << "sum = " << (a + b);
+}
+
+void add(int a, int b, int c)
+{
+	cout << endl << "sum = " << (a + b + c);
+}
+
+// Driver code
+int main()
+{
+	add(10, 2);
+	add(5, 6, 4);
+
+	return 0;
+}
+```
+Output:
+```
+sum = 12
+sum = 15
+```
+3)Parameters should have a different sequence of parameters.
+```
+add(int a, double b)
+add(double a, int b)
+```
+#include<iostream>
+using namespace std;
+ 
+void add(int a, double b)
+{
+    cout<<"sum = "<<(a+b);
+} 
+ 
+void  add(double a, int b)
+{
+    cout<<endl<<"sum = "<<(a+b);
+} 
+ 
+// Driver code
+int main()
+{
+    add(10,2.5);
+    add(5.5,6);
+ 
+      return 0;
+}
+```
+Output:
+```
+sum = 12.5
+sum = 11.5
+```
+### Promotion of Variable in Function Overloading
+	How does Function Overloading work?
+Exact match:- (Function name and Parameter)
+If a not exact match is found:–
+               ->Char, Unsigned char, and short are promoted to an int.
+
+               ->Float is promoted to double
+
+If no match is found:
+               ->C++ tries to find a match through the standard conversion.
+
+ELSE ERROR
 [link](https://owlcation.com/stem/Function-Overloading-in-C-with-Example) [link](https://www.programiz.com/cpp-programming/function-overloading) [link](https://www.programiz.com/cpp-programming/default-argument) [link](https://www.geeksforgeeks.org/function-overloading-c/) [link](https://www.geeksforgeeks.org/function-overloading-in-c/)                     
 ### Default Arguments: 
 If a function with default arguments is called without passing arguments, then the default parameters are used.However, if arguments are passed while calling the function, the default arguments are ignored.
