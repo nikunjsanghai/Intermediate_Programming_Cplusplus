@@ -43,4 +43,11 @@ Question 3:(Pascal's Triangle)
  1  5   10   10  5   1 
 ```
 Question 4:
+```
+        * 
+       * * 
+      * * * 
+     * * * * 
+    * * * * * 
+```
  
