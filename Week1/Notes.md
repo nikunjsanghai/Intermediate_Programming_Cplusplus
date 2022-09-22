@@ -305,17 +305,16 @@ sum = 12.5
 sum = 11.5
 ```
 ### Promotion of Variable in Function Overloading
-	How does Function Overloading work?
+How does Function Overloading work?
 Exact match:- (Function name and Parameter)
-If a not exact match is found:–
-               ->Char, Unsigned char, and short are promoted to an int.
-
-               ->Float is promoted to double
-
+If a not exact match is found:–                
+1)Char, Unsigned char, and short are promoted to an int.                        
+2)Float is promoted to double  
+                                       
 If no match is found:
-               ->C++ tries to find a match through the standard conversion.
+3)C++ tries to find a match through the standard conversion.                                        
+4)ELSE ERROR                          
 
-ELSE ERROR
 [link](https://owlcation.com/stem/Function-Overloading-in-C-with-Example) [link](https://www.programiz.com/cpp-programming/function-overloading) [link](https://www.programiz.com/cpp-programming/default-argument) [link](https://www.geeksforgeeks.org/function-overloading-c/) [link](https://www.geeksforgeeks.org/function-overloading-in-c/)                     
 ### Default Arguments: 
 If a function with default arguments is called without passing arguments, then the default parameters are used.However, if arguments are passed while calling the function, the default arguments are ignored.
