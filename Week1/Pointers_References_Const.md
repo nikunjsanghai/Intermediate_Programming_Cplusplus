@@ -64,7 +64,7 @@ return 0;
 ```
 C++ allows functions to be overloaded on the basis of the const-ness of parameters only if the const parameter is a reference or a pointer. 
 This rule actually makes sense.           
--In program 1, the parameter ‘i’ is passed by value,so ‘i’ in fun() is a copy of ‘i’ in main(). Hence fun() irrespective of const or non-const cannot modify ‘i’ of main().
+- In program 1, the parameter ‘i’ is passed by value,so ‘i’ in fun() is a copy of ‘i’ in main(). Hence fun() irrespective of const or non-const cannot modify ‘i’ of main().
 Therefore, it doesn’t matter whether ‘i’ is received as a const parameter or a normal parameter.This redudancy causes the error.                
--When we pass by reference or pointer,we can modify the value referred or pointed, so we can have two versions of a function,
+- When we pass by reference or pointer,we can modify the value referred or pointed, so we can have two versions of a function,
 one which can modify the referred or pointed value, other which can not. Compiler is able to differentiate between the two and overload them.
