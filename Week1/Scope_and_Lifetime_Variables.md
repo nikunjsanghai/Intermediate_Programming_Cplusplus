@@ -1,0 +1,1 @@
+Scope and Lifetime of a variable are two different things. Read [link](https://stackoverflow.com/questions/57483/what-are-the-differences-between-a-pointer-variable-and-a-reference-variable) [link](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
