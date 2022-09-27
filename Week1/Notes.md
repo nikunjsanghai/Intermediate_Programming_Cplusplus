@@ -35,7 +35,7 @@ Classes have their member functions and variables declared as private and if you
  ### Statements:[Link](https://en.cppreference.com/w/cpp/language/statements)
  
 
-# Initializer List 
+# Initializer List (Not relevant for PIC 10B-Fall 2022)
 It is not to be confused with std::initializer_list. In the definition of a constructor of a class the initlizer list specifies values of non-static data members. 
 
 Example:
