@@ -1,0 +1,1 @@
+Notes in Progress: [link](https://www.geeksforgeeks.org/static-keyword-cpp/) [link](https://www.geeksforgeeks.org/static-variables-in-c/) [link](https://stackoverflow.com/questions/15235526/the-static-keyword-and-its-various-uses-in-c) 
