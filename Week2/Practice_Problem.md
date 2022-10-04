@@ -75,4 +75,4 @@ int main() {
 
 }
 ```
-
+##### Sieve of Eratosthenes [link](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
