@@ -1,4 +1,5 @@
-Pointers and References in C++: [Link](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Pointers_and_memory.md) 
+Pointers and References in C++: [Link](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Pointers_and_memory.md)        
+Pointers and const:[Stackoverflow](https://stackoverflow.com/questions/1143262/what-is-the-difference-between-const-int-const-int-const-and-int-const)  [geekforgeeks](https://www.geeksforgeeks.org/difference-between-const-int-const-int-const-and-int-const/) [geekforgeeks](https://www.geeksforgeeks.org/difference-between-constant-pointer-pointers-to-constant-and-constant-pointers-to-constants/) [learncpp](https://www.learncpp.com/cpp-tutorial/pointers-and-const/)
 
 ### Function Overloading with respect to const.
 C++ allows member methods to be overloaded on the basis of const type. Overloading on the basis of const type can be useful when a function returns a reference or pointer.
