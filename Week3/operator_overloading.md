@@ -82,4 +82,5 @@ int main() {
 }
 ```
 
-https://docs.microsoft.com/en-us/cpp/cpp/increment-and-decrement-operator-overloading-cpp?view=msvc-170
+Increment and Decrement operators: [Microsoft](https://docs.microsoft.com/en-us/cpp/cpp/increment-and-decrement-operator-overloading-cpp?view=msvc-170)
+Operator Overloading: [geeksforgeeks](https://www.geeksforgeeks.org/operator-overloading-c/) [cppref](https://en.cppreference.com/w/cpp/language/operators) [IBM](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-overloading-operators-c) [Microsoft](https://learn.microsoft.com/en-us/cpp/cpp/operator-overloading?view=msvc-170)
