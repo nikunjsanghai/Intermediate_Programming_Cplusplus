@@ -1,4 +1,4 @@
 \>>,<< operator overloading: [geeksforgeeks](https://www.geeksforgeeks.org/overloading-stream-insertion-operators-c/) [microsoft](https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170)              
 casting operators overloading: [geeksforgeeks](https://www.geeksforgeeks.org/conversion-operators-in-cpp/) [learncpp](https://www.learncpp.com/cpp-tutorial/overloading-typecasts/)                        
-+= operator: [Stackoverflow] (https://stackoverflow.com/questions/4581961/c-how-to-overload-operator)                           
++= operator: [Stackoverflow](https://stackoverflow.com/questions/4581961/c-how-to-overload-operator)                           
 [] operator: [learncpp](https://www.learncpp.com/cpp-tutorial/overloading-the-subscript-operator/) [geeksforgeeks](https://www.geeksforgeeks.org/overloading-subscript-or-array-index-operator-in-c/)
