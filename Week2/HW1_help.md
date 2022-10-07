@@ -2,3 +2,5 @@
 casting operators overloading: [geeksforgeeks](https://www.geeksforgeeks.org/conversion-operators-in-cpp/) [learncpp](https://www.learncpp.com/cpp-tutorial/overloading-typecasts/)                        
 += operator: [Stackoverflow](https://stackoverflow.com/questions/4581961/c-how-to-overload-operator)                           
 [] operator: [learncpp](https://www.learncpp.com/cpp-tutorial/overloading-the-subscript-operator/) [geeksforgeeks](https://www.geeksforgeeks.org/overloading-subscript-or-array-index-operator-in-c/)
+Types of operator overloading: [geeksforgeeks](https://www.geeksforgeeks.org/types-of-operator-overloading-in-c/) 
+C++ binary operator overloading: [stackoverflow](https://stackoverflow.com/questions/49745298/c-binary-operator-overloading)  
