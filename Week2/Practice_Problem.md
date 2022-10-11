@@ -9,7 +9,7 @@
 - **print():** within the class definition that outputs the complext number a +bi in (a,b) format. 
 Design a function to overload operator (/) so that it acheives the following result: 
 
-![dividing-complex-numbers] (https://user-images.githubusercontent.com/103468688/165282538-405057ba-224a-44dc-aafe-4595979cd4ce.pn
+![dividing-complex-numbers](https://user-images.githubusercontent.com/103468688/165282538-405057ba-224a-44dc-aafe-4595979cd4ce.pn)
 
 ### Solution\[Updated]: 
 ```
