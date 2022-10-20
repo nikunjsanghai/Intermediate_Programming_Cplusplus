@@ -61,3 +61,41 @@ print derived class
 show base class
 ```
 Reference Link:[geeksforgeeks](https://www.geeksforgeeks.org/virtual-function-cpp/) [stackoverflow](https://stackoverflow.com/questions/11067975/overriding-non-virtual-methods) 
+
+### Final Keyword 
+Sometimes you don’t want to allow derived class to override the base class’ virtual function. C++ 11 allows built-in facility to prevent overriding of virtual function using final specifier.                      
+
+Example:              
+```
+#include <iostream>
+using namespace std;
+ 
+class Base
+{
+public:
+    virtual void myfun() final
+    {
+        cout << "myfun() in Base";
+    }
+};
+class Derived : public Base
+{
+    void myfun()
+    {
+        cout << "myfun() in Derived\n";
+    }
+};
+ 
+int main()
+{
+    Derived d;
+    Base &b = d;
+    b.myfun();
+    return 0;
+}
+```
+Output:
+```
+Error
+```
+Reference lInk: [geeksforgeeks](https://www.geeksforgeeks.org/c-final-specifier/) [stackoverflow](https://stackoverflow.com/questions/8824587/what-is-the-purpose-of-the-final-keyword-in-c11-for-functions) 
