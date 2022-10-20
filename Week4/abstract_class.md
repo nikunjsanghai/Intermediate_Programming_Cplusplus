@@ -30,5 +30,6 @@ struct B : A {
 // void h(A);
 A& i(A&);
 ```
+**Note:Virtual member functions are inherited. A class derived from an abstract base class will also be abstract unless you override each pure virtual function in the derived class.**
 Reference: [IBM](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) 
 
