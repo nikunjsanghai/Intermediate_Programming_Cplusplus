@@ -13,7 +13,7 @@ public:
 You cannot use an abstract class as a parameter type, a function return type, or the type of an explicit conversion, nor can you declare an object of an abstract class.
 You can, however, declare pointers and references to an abstract class. The following example demonstrates this:                               
 ```
-truct A {
+struct A {
   virtual void f() = 0;
 };
 
@@ -28,7 +28,22 @@ struct B : A {
 // Error:
 // Class A is an abstract class
 // void h(A);
-A& i(A&);
+A& func(A&); //function declaration or function signature 
+// func is a free function here 
+
+int main() {
+
+// Error:
+// Class A is an abstract class
+//   A a;
+
+   A* pa;
+   B b;
+
+// Error:
+// Class A is an abstract class
+//   static_cast<A>(b);
+}
 ```
 **Note:Virtual member functions are inherited. A class derived from an abstract base class will also be abstract unless you override each pure virtual function in the derived class.**                                     
 Reference: [IBM](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) 
