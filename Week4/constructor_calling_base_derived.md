@@ -145,4 +145,9 @@ int main()
     return 0;
 }
 ```
+Output:
+```
+Inside base class's parameterized constructor
+Inside sub class's parameterized constructor
+```
 Reference Link: [geeksforgeeks](https://www.geeksforgeeks.org/order-constructor-destructor-call-c/)
