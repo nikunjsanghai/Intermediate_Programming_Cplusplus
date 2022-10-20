@@ -9,6 +9,7 @@ public:
   virtual void f() = 0;
 };
 ```
+#### Pointers and References to an Abstract Class
 You cannot use an abstract class as a parameter type, a function return type, or the type of an explicit conversion, nor can you declare an object of an abstract class.
 You can, however, declare pointers and references to an abstract class. The following example demonstrates this:                               
 ```
