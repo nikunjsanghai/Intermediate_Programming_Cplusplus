@@ -45,6 +45,8 @@ int main() {
 //   static_cast<A>(b);
 }
 ```
-**Note:Virtual member functions are inherited. A class derived from an abstract base class will also be abstract unless you override each pure virtual function in the derived class.**                                     
-Reference: [IBM](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) 
+**Note:Virtual member functions are inherited. A class derived from an abstract base class will also be abstract unless you override each pure virtual function in the derived class.**   
+**Note:A reference to an abstract class is just like a pointer to an abstract class: it needs to reference an object of some non-abstract subclass of the abstract class. You can use a reference like that to call virtual methods on the referenced class using the . syntax**
+
+Reference: [IBM](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) [stackoverflow](https://stackoverflow.com/questions/5019046/reference-to-abstract-class)
 
