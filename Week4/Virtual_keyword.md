@@ -7,6 +7,7 @@ Virtual functions ensure that the correct function is called for an object, rega
 - The resolving of function call is done at runtime.                       
 
 Example:   
+```
 // CPP program to illustrate
 // concept of Virtual Functions
 
