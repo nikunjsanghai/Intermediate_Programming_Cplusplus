@@ -27,6 +27,7 @@ int main()
 Output:
 ```
 ```
+```
 // PROGRAM 2
 #include <iostream>
 using std::cout;
