@@ -26,6 +26,7 @@ int main()
 ```
 Output:
 ```
+20
 ```
 ```
 // PROGRAM 2
@@ -48,6 +49,7 @@ int main()
 ```
 Output:
 ```
+Error
 ```
 The mutable keyword is a way to pierce the const veil you drape over your objects. If you have a const reference or pointer to an object, you cannot modify that object in any way except when and how it is marked mutable.
 
