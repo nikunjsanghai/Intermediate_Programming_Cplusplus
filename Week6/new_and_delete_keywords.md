@@ -75,10 +75,10 @@ As far as which one to use; you choose the method that works best for you, given
 **Some easy cases:**
 
 - If you don't want to worry about calling delete, (and the potential to cause memory leaks) you shouldn't use new.
-- If you'd like to return a pointer to your object from a function, you must use new
+- If you'd like to return a pointer to your object from a function, you must use new                             
 
 
-- How to delete an array of pointers? 
+How to delete an array of pointers? 
 ```
 int* a = new int[10];
 delete[] a;
