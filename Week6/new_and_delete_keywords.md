@@ -77,7 +77,120 @@ As far as which one to use; you choose the method that works best for you, given
 - If you don't want to worry about calling delete, (and the potential to cause memory leaks) you shouldn't use new.
 - If you'd like to return a pointer to your object from a function, you must use new                             
 
+### Delete Keyword 
+Delete is an operator that is used to destroy array and non-array(pointer) objects which are created by new expression.
 
+- Delete can be used by either using Delete operator or Delete [ ] operator
+- New operator is used for dynamic memory allocation which puts variables on heap memory.
+- Which means Delete operator deallocates memory from heap.
+- Pointer to object is not destroyed, value or memory block pointed by pointer is destroyed.
+- The delete operator has void return type does not return a value.
+
+
+Here, Below are examples where we can apply delete operator:
+1. Deleting Array Objects: We delete an array using [] brackets.
+```
+// Program to illustrate deletion of array
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// Allocate Heap memory
+	int* array = new int[10];
+	
+	// Deallocate Heap memory
+	delete[] array;
+
+	return 0;
+}
+```
+2. Deleting Null pointer:Deleting a NULL does not cause any change and no error. 
+```
+// C++ program to deleting
+// NULLL pointer
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// ptr is NULL pointer
+	int* ptr = NULL;
+
+	// deleting ptr
+	delete ptr;
+
+	return 0;
+}
+```
+3. Deleting pointer with or without value
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	// Creating int pointer
+	int* ptr1 = new int;
+	
+	// Initializing pointer with value 20
+	int* ptr2 = new int(20);
+
+	cout << "Value of ptr1 = " << *ptr1 << "\n";
+	cout << "Value of ptr2 = " << *ptr2 << "\n";
+
+	delete ptr1; // Destroying ptr1
+	delete ptr2; // Destroying ptr2
+
+	return 0;
+}
+```
+Output:
+```
+Value of ptr1 = 0
+Value of ptr2 = 20
+```
+4. Deleting a void pointer
+```
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+	void* ptr; // Creating void pointer
+
+	delete ptr; // Destroying void pointer
+
+	cout << "ptr deleted successfully";
+	return 0;
+}
+```
+Output:
+```
+ptr deleted successfully
+```
+Can we delete stack allocated pointers via delete?
+```
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int x;
+	int* ptr1 = &x;
+
+	// x is present on stack frame as
+	// local variable, only dynamically
+	// allocated variables can be destroyed
+	// using delete operator
+	delete ptr1;
+
+	return 0;
+}
+```
+Output:
+```
+Runtime error
+```
 How to delete an array of pointers? 
 ```
 int* a = new int[10];
