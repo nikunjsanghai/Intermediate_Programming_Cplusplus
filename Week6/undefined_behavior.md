@@ -36,7 +36,7 @@ int bar() {
     return *p;        // Unconditional UB
 }
 ```
-The output of all of the above programs is unpredictable (or undefined). The compilers (implementing the C/C++ standard) are free to do anything as these are undefined by the C and C++ standards. 
+The output of all of the above programs is unpredictable (or undefined). The compilers (implementing the C/C++ standard) are free to do anything as these are undefined by the C and C++ standards.                                                
  Reference Links: [cppref](https://en.cppreference.com/w/cpp/language/ub) [geeksforgeeks](https://www.geeksforgeeks.org/undefined-behavior-c-cpp/) [stackoverflow](https://stackoverflow.com/questions/367633/what-are-all-the-common-undefined-behaviours-that-a-c-programmer-should-know-a) 
  
  
