@@ -3,7 +3,7 @@ Constructor revision is important since Constructors and Destructors are related
 
 ### What is a Contructor?  
 * Constructor is member function that shares the same name as the class.    
-* onstructors are used to create, and can initialize, objects of their class type.   
+* Constructors are used to create, and can initialize, objects of their class type.   
 * A Constructor does not return any value.     
 * A Constructor cannot be declared  static nor can it be declared as const.  
 * Just like other fucntions constructors can be overloaded.    
