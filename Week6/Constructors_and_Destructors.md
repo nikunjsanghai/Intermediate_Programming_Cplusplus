@@ -115,6 +115,8 @@ No, there can only one destructor in a class with classname preceded by ~, no pa
 
 If we do not write our own destructor in class, compiler creates a default destructor for us. The default destructor works fine unless we have dynamically allocated memory or pointer in class. When a class contains a pointer to memory allocated in class, we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leak.  
 
+Reference Links: [geeksforgeeks](https://www.geeksforgeeks.org/is-it-possible-to-call-constructor-and-destructor-explicitly-in-cpp/) [geeksforgeeks](https://www.geeksforgeeks.org/virtual-destructor/?ref=rp) [geeksforgeeks](https://www.geeksforgeeks.org/pure-virtual-destructor-c/?ref=rp) [geeksforgeeks](https://www.geeksforgeeks.org/private-destructor-in-cpp/?ref=rp) [geeksforgeeks](https://www.geeksforgeeks.org/order-constructor-destructor-call-c/?ref=rp)
+
 #### References for further reading:[Link1](https://www.geeksforgeeks.org/destructors-c/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/destructors-cpp?view=msvc-170) [Link3](https://www.ibm.com/docs/en/i/7.1?topic=only-destructors-c) [Link4](https://en.cppreference.com/w/cpp/language/destructor)
 ### Object Lifetime 
 Unlike managed languages, C++ doesn't have automatic garbage collection. 
@@ -138,5 +140,5 @@ Only deterministic destructors like those in C++ can handle memory and non-memor
 
 ### References for further reading: [Link1](https://www.geeksforgeeks.org/life-cycle-of-objects-in-c-with-example/) [Link2](https://docs.microsoft.com/en-us/cpp/cpp/object-lifetime-and-resource-management-modern-cpp?view=msvc-170) [Link3](https://en.cppreference.com/w/cpp/language/lifetime)
 
-### Copy Constructor and shallow and deep copy please refer to PIC_10B_2A_Week6
+
 
