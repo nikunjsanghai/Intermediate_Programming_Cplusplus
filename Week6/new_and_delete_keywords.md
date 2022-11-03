@@ -199,4 +199,4 @@ a = NULL; // a still exists, but it's a dangling pointer now, so we set it to NU
 ```
 
 
-Reference Links:[stackoverflow](https://stackoverflow.com/questions/2814188/c-array-of-pointers-delete-or-delete) [cplusplus](https://cplusplus.com/forum/beginner/30683/) [geeksforgeeks](https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/#:~:text=new%20keyword,memory%20to%20the%20pointer%20variable.) [stackoverflow](https://stackoverflow.com/questions/655065/when-should-i-use-the-new-keyword-in-c)
+Reference Links:[stackoverflow](https://stackoverflow.com/questions/2814188/c-array-of-pointers-delete-or-delete) [cplusplus](https://cplusplus.com/forum/beginner/30683/) [geeksforgeeks](https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/#:~:text=new%20keyword,memory%20to%20the%20pointer%20variable.) [stackoverflow](https://stackoverflow.com/questions/655065/when-should-i-use-the-new-keyword-in-c) [geeksforgeeks](https://www.geeksforgeeks.org/delete-in-c/) 
