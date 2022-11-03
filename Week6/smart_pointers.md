@@ -233,18 +233,19 @@ A::show()
 ```
 
 #### weak_ptr
-A weak_ptr is created as a copy of shared_ptr. It provides access to an object that is owned by one or more shared_ptr instances but does not participate in reference counting. The existence or destruction of weak_ptr has no effect on the shared_ptr or its other copies. It is required in some cases to break circular references between shared_ptr instances.It’s much more similar to shared_ptr except it’ll not maintain a Reference Counter. In this case, a pointer will not have a stronghold on the object. The reason is if suppose pointers are holding the object and requesting for other objects then they may form a Deadlock.   
+A weak_ptr is created as a copy of shared_ptr. It provides access to an object that is owned by one or more shared_ptr instances but does not participate in reference counting. The existence or destruction of weak_ptr has no effect on the shared_ptr or its other copies. It is required in some cases to break circular references between shared_ptr instances.It’s much more similar to shared_ptr except it’ll not maintain a Reference Counter. In this case, a pointer will not have a stronghold on the object. The reason is if suppose pointers are holding the object and requesting for other objects then they may form a Deadlock.  
+![weak_ptr](https://user-images.githubusercontent.com/103468688/199694964-1026a2ac-e660-4fb6-afbc-8f641a6bb932.PNG)           
+
+**Cyclic Dependency (Problems with shared_ptr)** Let’s consider a scenario where we have two classes A and B, both have pointers to other classes. So, it’s always like A is pointing to B and B is pointing to A. Hence, use_count will never reach zero and they never get deleted.                     
 ![weak_cyclic](https://user-images.githubusercontent.com/103468688/199698266-5d27cf20-8f3d-4667-89cd-182352fe0e5e.PNG)
 This is the reason we use weak pointers(weak_ptr) as they are not reference counted. So, the class in which weak_ptr is declared doesn’t have a stronghold of it i.e. the ownership isn’t shared, but they can have access to these objects.                  
 ![weak](https://user-images.githubusercontent.com/103468688/199698433-d40d0c4d-5435-460d-8a22-1638a222d2d0.PNG)
 So, in case of shared_ptr because of cyclic dependency use_count never reaches zero which is prevented using weak_ptr, which removes this problem by declaring A_ptr as weak_ptr, thus class A does not own it, only have access to it and we also need to check the validity of object as it may go out of scope. In general, it is a design issue.                                                  
-
-**Cyclic Dependency (Problems with shared_ptr)** Let’s consider a scenario where we have two classes A and B, both have pointers to other classes. So, it’s always like A is pointing to B and B is pointing to A. Hence, use_count will never reach zero and they never get deleted.                           
-
+                          
 
 
 
-![weak_ptr](https://user-images.githubusercontent.com/103468688/199694964-1026a2ac-e660-4fb6-afbc-8f641a6bb932.PNG)
+
 
 
 
