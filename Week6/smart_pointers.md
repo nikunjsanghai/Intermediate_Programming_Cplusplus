@@ -57,6 +57,111 @@ for those references for which it's ok to ignore and deallocate (so they'll just
 
 **"So when should I use regular pointers then?"**                                
 Mostly in code that is oblivious to memory ownership. This would typically be in functions which get a pointer from someplace else and do not allocate nor de-allocate,
-and do not store a copy of the pointer which outlasts their execution.                                   
+and do not store a copy of the pointer which outlasts their execution.   
+
+
+### Types of Smart Pointers
+
+- unique_ptr
+unique_ptr stores one pointer only. We can assign a different object by removing the current object from the pointer. Notice the code below. First, the unique_pointer is pointing to P1. But, then we remove P1 and assign P2 so the pointer now points to P2.
+![unique](https://user-images.githubusercontent.com/103468688/199694398-8583ff37-1092-4189-afa5-c1f6f11ebc9d.PNG)
+```
+#include <iostream>
+using namespace std;
+#include <memory>
+
+class Rectangle {
+	int length;
+	int breadth;
+
+public:
+	Rectangle(int l, int b){
+		length = l;
+		breadth = b;
+	}
+
+	int area(){
+		return length * breadth;
+	}
+};
+
+int main(){
+
+	unique_ptr<Rectangle> P1(new Rectangle(10, 5));
+	cout << P1->area() << endl; // This'll print 50
+
+	// unique_ptr<Rectangle> P2(P1);
+	unique_ptr<Rectangle> P2;
+	P2 = move(P1);
+
+	// This'll print 50
+	cout << P2->area() << endl;
+
+	// cout<<P1->area()<<endl;
+	return 0;
+}
+```
+Output:
+```
+50
+50
+```
+-shared_ptr:By using shared_ptr more than one pointer can point to this one object at a time and it’ll maintain a Reference Counter using use_count() method.
+![shared](https://user-images.githubusercontent.com/103468688/199694696-9a137ee8-79af-447d-aa3e-e6c19958ef96.PNG)
+```
+#include <iostream>
+using namespace std;
+#include <memory>
+
+class Rectangle {
+	int length;
+	int breadth;
+
+public:
+	Rectangle(int l, int b)
+	{
+		length = l;
+		breadth = b;
+	}
+
+	int area()
+	{
+		return length * breadth;
+	}
+};
+
+int main()
+{
+
+	shared_ptr<Rectangle> P1(new Rectangle(10, 5));
+	// This'll print 50
+	cout << P1->area() << endl;
+
+	shared_ptr<Rectangle> P2;
+	P2 = P1;
+
+	// This'll print 50
+	cout << P2->area() << endl;
+
+	// This'll now not give an error,
+	cout << P1->area() << endl;
+
+	// This'll also print 50 now
+	// This'll print 2 as Reference Counter is 2
+	cout << P1.use_count() << endl;
+	return 0;
+}
+```
+Output:
+```
+50
+50
+50
+2
+```
+- weak_ptr :It’s much more similar to shared_ptr except it’ll not maintain a Reference Counter. In this case, a pointer will not have a stronghold on the object. The reason is if suppose pointers are holding the object and requesting for other objects then they may form a Deadlock. 
+![weak_ptr](https://user-images.githubusercontent.com/103468688/199694964-1026a2ac-e660-4fb6-afbc-8f641a6bb932.PNG)
+
+
 
 Reference Links:[stackoverflow](https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one) [geeksforgeeks](https://www.geeksforgeeks.org/smart-pointers-cpp/) [geeksforgeeks](https://www.geeksforgeeks.org/auto_ptr-unique_ptr-shared_ptr-weak_ptr-2/)
