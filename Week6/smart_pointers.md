@@ -106,7 +106,7 @@ Output:
 50
 50
 ```
--shared_ptr:By using shared_ptr more than one pointer can point to this one object at a time and it’ll maintain a Reference Counter using use_count() method.
+-shared_ptr:By using shared_ptr more than one pointer can point to this one object at a time and it’ll maintain a Reference Counter using use_count() method.                   
 ![shared](https://user-images.githubusercontent.com/103468688/199694696-9a137ee8-79af-447d-aa3e-e6c19958ef96.PNG)
 ```
 #include <iostream>
@@ -159,7 +159,7 @@ Output:
 50
 2
 ```
-- weak_ptr :It’s much more similar to shared_ptr except it’ll not maintain a Reference Counter. In this case, a pointer will not have a stronghold on the object. The reason is if suppose pointers are holding the object and requesting for other objects then they may form a Deadlock. 
+- weak_ptr :It’s much more similar to shared_ptr except it’ll not maintain a Reference Counter. In this case, a pointer will not have a stronghold on the object. The reason is if suppose pointers are holding the object and requesting for other objects then they may form a Deadlock.                           
 ![weak_ptr](https://user-images.githubusercontent.com/103468688/199694964-1026a2ac-e660-4fb6-afbc-8f641a6bb932.PNG)
 
 
