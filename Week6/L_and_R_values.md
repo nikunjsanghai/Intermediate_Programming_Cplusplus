@@ -1,7 +1,10 @@
 ### L and R values 
 For PIC 10A you guys mostly read basics of C++ Programming like functions, variables, types of variables and things such as function overloading.
 
-**lvalue:** simply means an object that has an identifiable location in memory (i.e. having an address).                          
+**lvalue:** L value is any expression that refers to an object. An object from now is a region of storage.
+
+Why does the distinction exists? 
+To save storage , if we had to store r values the code will be less efficient. 
 
 In any assignment statement “lvalue” must have the capability to store the data.               
 lvalue cannot be a function, expression (like a+b) or a constant (like 3 , 4 , etc.).                    
