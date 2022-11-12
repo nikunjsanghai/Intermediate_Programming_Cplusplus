@@ -128,4 +128,8 @@ int main()
 ```
 In this statement, the variable x is being used in two different contexts. On the left side of the assignment operator, x is an lvalue expression that evaluates to variable x. On the right side of the assignment operator, x + 1 is an rvalue expression that evaluates to the value 3.                
 
-Now that we’ve covered lvalues, we can get to our first compound type: the lvalue reference.                 
+Now that we’ve covered lvalues, we can get to our first compound type: the lvalue reference.                              
+#### As a rule of thumb to identify lvalue and rvalue expressions:
+
+- lvalues expressions are those that evaluate to variables or other identifiable objects that persist beyond the end of the expression.
+- rvalues expressions are those that evaluate to literals or the returned value of functions and operators that are discarded at the end of the expression.
