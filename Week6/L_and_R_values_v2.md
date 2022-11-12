@@ -115,3 +115,17 @@ int main()
     return 0;
 }
 ```
+The answer is because lvalues will implicitly convert to rvalues, so an lvalue can be used wherever an rvalue is required.
+```
+int main()
+{
+    int x { 2 };
+
+    x = x + 1;
+
+    return 0;
+}
+```
+In this statement, the variable x is being used in two different contexts. On the left side of the assignment operator, x is an lvalue expression that evaluates to variable x. On the right side of the assignment operator, x + 1 is an rvalue expression that evaluates to the value 3.                
+
+Now that we’ve covered lvalues, we can get to our first compound type: the lvalue reference.                 
