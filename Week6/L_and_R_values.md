@@ -3,12 +3,10 @@ For PIC 10A you guys mostly read basics of C++ Programming like functions, varia
 
 **lvalue:** L value is any expression that refers to an object. An object from now is a region of storage.
 
-Why does the distinction exists? 
-To save storage , if we had to store r values the code will be less efficient. 
+**Why does the distinction exists?**     
+- To save storage , if we had to store r values the code will be less efficient. 
 
-In any assignment statement “lvalue” must have the capability to store the data.               
-lvalue cannot be a function, expression (like a+b) or a constant (like 3 , 4 , etc.).                    
-
+In any assignment statement “lvalue” must have the capability to store the data. lvalue cannot be a function, expression (like a+b) or a constant (like 3 , 4 , etc.).                    
 “l-value” refers to memory location which identifies an object. l-value may appear as either left hand or right hand side of an assignment operator(=). l-value often represents as identifier. Expressions referring to modifiable locations are called “modifiable l-values“. A modifiable l-value cannot have an array type, an incomplete type, or a type with the const attribute. For structures and unions to be modifiable lvalues, they must not have any members with the const attribute. The name of the identifier denotes a storage location, while the value of the variable is the value stored at that location. An identifier is a modifiable lvalue if it refers to a memory location and if its type is arithmetic, structure, union or pointer. For example, if ptr is a pointer to a storage region, then \*ptr is a modifiable l-value that designates the storage region to which ptr points. In C, the concept was renamed as “locator value”, and referred to expressions that locate (designate) objects.
 
 **Example:**
