@@ -29,10 +29,8 @@ int b = a; // Ok, as l-value can appear on right
 
 **r-value** simply means, an object that has no identifiable location in memory (i.e. having an address).                           
                                         
-Anything that is capable of returning a constant expression or value.                           
-Expression like a+b will return some constant.  
+Anything that is capable of returning a constant expression or value.Expression like a+b will return some constant."r-value” refers to data value that is stored at some address in memory. A r-value is an expression, that can’t have a value assigned to it, which means r-value can appear on right but not on left hand side of an assignment operator(=).           
 
-r-value” refers to data value that is stored at some address in memory. A r-value is an expression, that can’t have a value assigned to it, which means r-value can appear on right but not on left hand side of an assignment operator(=).
 ```
 // declare 'a', 'b' an object of type 'int'
 int a = 1, b;
