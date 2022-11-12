@@ -102,4 +102,16 @@ Rvalues aren’t identifiable (meaning they have to be used immediately), and on
     return 0;
 }
  ```
-  ### L value
+  ### L-value to R-value conversion
+    We said above that the assignment operator expects the right operand to be an rvalue expression, so why does code like this work?
+```
+int main()
+{
+    int x{ 1 };
+    int y{ 2 };
+
+    x = y; // y is a modifiable lvalue, not an rvalue, but this is legal
+
+    return 0;
+}
+```
