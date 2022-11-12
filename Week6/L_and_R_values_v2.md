@@ -132,5 +132,6 @@ Now that we’ve covered lvalues, we can get to our first compound type: the lva
 #### As a rule of thumb to identify lvalue and rvalue expressions:
 
 - lvalues expressions are those that evaluate to variables or other identifiable objects that persist beyond the end of the expression.
-- rvalues expressions are those that evaluate to literals or the returned value of functions and operators that are discarded at the end of the expression.
+- rvalues expressions are those that evaluate to literals or the returned value of functions and operators that are discarded at the end of the expression.         
+    
 Reference Link:[learncpp](https://www.learncpp.com/cpp-tutorial/value-categories-lvalues-and-rvalues/)
