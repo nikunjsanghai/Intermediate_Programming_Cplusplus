@@ -104,6 +104,7 @@ Rvalues aren’t identifiable (meaning they have to be used immediately), and on
  ```
 ### L-value to R-value conversion
 We said above that the assignment operator expects the right operand to be an rvalue expression, so why does code like this work?
+```
 int main()
 {
     int x{ 1 };
