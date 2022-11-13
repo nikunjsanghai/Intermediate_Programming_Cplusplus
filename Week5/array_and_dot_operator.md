@@ -10,5 +10,5 @@ An Arrow operator in C/C++ allows to access elements in Structures and Unions. I
 - The Dot(.) operator is used to normally access members of a structure or union.
 - The Arrow(->) operator exists to access the members of the structure or the unions using pointers.
 
-Reference Link: [geekforgeeks](https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/)
+Reference Link: [geekforgeeks](https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/) [stackoverflow](https://stackoverflow.com/questions/17716293/arrow-operator-and-dot-operator-class-pointer)
 
