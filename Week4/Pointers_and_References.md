@@ -226,6 +226,7 @@ Lets look at the same example but for 2D arrays
 ![pointersandarrays](https://user-images.githubusercontent.com/103468688/164473801-aeb47900-73ef-4c4f-99ec-326de781d258.jpg)
 
 #### Self Referencing Structures: [geeksforgeeks](https://www.geeksforgeeks.org/self-referential-structures/)
+#### Difference between References and Pointers: [stackoverflow](https://stackoverflow.com/questions/57483/what-are-the-differences-between-a-pointer-variable-and-a-reference-variable)
 
 ### References and Reading Material 
 [source](https://www.geeksforgeeks.org/pointers-c-examples/)
