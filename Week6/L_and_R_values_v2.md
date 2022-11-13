@@ -132,6 +132,10 @@ Now that we’ve covered lvalues, we can get to our first compound type: the lva
 #### As a rule of thumb to identify lvalue and rvalue expressions:
 
 - lvalues expressions are those that evaluate to variables or other identifiable objects that persist beyond the end of the expression.
-- rvalues expressions are those that evaluate to literals or the returned value of functions and operators that are discarded at the end of the expression.         
+- rvalues expressions are those that evaluate to literals or the returned value of functions and operators that are discarded at the end of the expression.  
+
+### L value Reference: [learncpp](https://www.learncpp.com/cpp-tutorial/lvalue-references/)
+### L value Reference to const: [learncpp](https://www.learncpp.com/cpp-tutorial/lvalue-references-to-const/)
+### R value References: [learncpp](https://www.learncpp.com/cpp-tutorial/rvalue-references/)
     
-Reference Link:[learncpp](https://www.learncpp.com/cpp-tutorial/value-categories-lvalues-and-rvalues/)
+Reference Link:[learncpp](https://www.learncpp.com/cpp-tutorial/value-categories-lvalues-and-rvalues/) [stackoverflow](https://stackoverflow.com/questions/3601602/what-are-rvalues-lvalues-xvalues-glvalues-and-prvalues) [cppref](https://en.cppreference.com/w/cpp/language/value_category) [stackoverflow](https://stackoverflow.com/questions/9406121/what-exactly-is-an-r-value-in-c) [microsoft_docs](https://learn.microsoft.com/en-us/cpp/cpp/lvalues-and-rvalues-visual-cpp?view=msvc-170) [git](https://devtut.github.io/cpp/value-categories.html#value-category-meanings) [stackoverflow](https://stackoverflow.com/questions/42441791/lifetime-extension-prvalues-and-xvalues) [stackoverflow](https://stackoverflow.com/questions/20717180/in-c-what-categories-lvalue-rvalue-xvalue-etc-can-expressions-that-prod)
