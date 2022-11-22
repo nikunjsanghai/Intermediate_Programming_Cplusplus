@@ -11,3 +11,4 @@ An example of this data structure is an array.
 Examples of this data structure are queue, stack, etc.
 - Non-linear data structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. 
 Examples of non-linear data structures are trees and graphs.
+![data_structures](https://user-images.githubusercontent.com/103468688/203321775-d70ceb2e-4f9e-4c06-b69c-14415c075757.jpg)
