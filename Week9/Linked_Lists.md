@@ -30,6 +30,12 @@ Deletion is also expensive with arrays until unless some special techniques are 
 
 - Circular Linked List – In this type of linked list, the last node of the linked list contains the link of the first/head node of the linked list in its next pointer and the first/head node contains the link of the last node of the linked list in its prev pointer
 ![circular_linked_list](https://user-images.githubusercontent.com/103468688/203480461-e3f9c5bd-a2ec-408f-8b62-2127713aec3b.JPG)
+  - Circular singly linked list: In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We traverse the circular singly linked list until we reach the same node where we started. The circular singly linked list has no beginning or end. No null value is present in the next part of any of the nodes. 
+   ![circular_singular](https://user-images.githubusercontent.com/103468688/203480936-bfedb4ca-a14e-4d60-b9b8-c2e61ee67f27.JPG)
+
+  - Circular Doubly linked list: Circular Doubly Linked List has properties of both doubly linked list and circular linked list in which two consecutive elements are linked or connected by the previous and next pointer and the last node points to the first node by the next pointer and also the first node points to the last node by the previous pointer.
+  ![circular_doubly](https://user-images.githubusercontent.com/103468688/203481030-07b124a0-e3af-4cd1-92c5-79f1fb295fc6.JPG)
+
 
 ### Basic operations on Linked Lists:
 - Deletion
