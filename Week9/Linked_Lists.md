@@ -21,9 +21,16 @@ Deletion is also expensive with arrays until unless some special techniques are 
 - Extra memory space for a pointer is required with each element of the list. 
 - Not cache friendly. Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
 ### Types of Linked Lists:
-- Simple Linked List – In this type of linked list, one can move or traverse the linked list in only one direction
-- Doubly Linked List – In this type of linked list, one can move or traverse the linked list in both directions (Forward and Backward)
+- Simple Linked List – In this type of linked list, one can move or traverse the linked list in only one direction                   
+![linked_list](https://user-images.githubusercontent.com/103468688/203477708-ae9d881a-1478-4f25-9379-44f048dabeae.JPG)
+
+- Doubly Linked List – In this type of linked list, one can move or traverse the linked list in both directions (Forward and Backward)                
+![doubly_linked_list](https://user-images.githubusercontent.com/103468688/203480435-f1138e1c-3ce8-42a3-99d2-68512ed6b7d0.JPG)
+
+
 - Circular Linked List – In this type of linked list, the last node of the linked list contains the link of the first/head node of the linked list in its next pointer and the first/head node contains the link of the last node of the linked list in its prev pointer
+![circular_linked_list](https://user-images.githubusercontent.com/103468688/203480461-e3f9c5bd-a2ec-408f-8b62-2127713aec3b.JPG)
+
 ### Basic operations on Linked Lists:
 - Deletion
 - Insertion
