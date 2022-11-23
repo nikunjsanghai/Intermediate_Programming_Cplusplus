@@ -43,7 +43,7 @@ Deletion is also expensive with arrays until unless some special techniques are 
 - Search
 - Display
 
-Reference Link on Linked Lists:[geekforgeeks](https://www.geeksforgeeks.org/what-is-linked-list/)
-Reference Link on Linked Lists vs Array:[geeksforgeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)
-Reference Link on Circular Linked Lists :[geeksforgeeks](https://www.geeksforgeeks.org/circular-linked-list/)
-Reference Link on Doubly Linked Lists :[geeksforgeeks](https://www.geeksforgeeks.org/doubly-linked-list/)
+Reference Link on Linked Lists:[geekforgeeks](https://www.geeksforgeeks.org/what-is-linked-list/)                            
+Reference Link on Linked Lists vs Array:[geeksforgeeks](https://www.geeksforgeeks.org/linked-list-vs-array/)                          
+Reference Link on Circular Linked Lists :[geeksforgeeks](https://www.geeksforgeeks.org/circular-linked-list/)                           
+Reference Link on Doubly Linked Lists :[geeksforgeeks](https://www.geeksforgeeks.org/doubly-linked-list/)                            
