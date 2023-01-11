@@ -6,6 +6,6 @@ Before you start homework 1,Question 1: Read about references and how do they di
 ### Side Notes:
 Difference between parameters and arguments: [geeksforgeeks](https://www.geeksforgeeks.org/difference-between-argument-and-parameter-in-c-c-with-examples/)
 
-### Question 1:
+### Question 2:
 - Notes in Progress. [geeksforgeeks](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
