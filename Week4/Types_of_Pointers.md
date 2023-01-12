@@ -53,3 +53,4 @@ Ouput:
 95
 66
 ```
+Notes in Progress, Reference link:[geeksforgeeks](https://www.geeksforgeeks.org/difference-between-constant-pointer-pointers-to-constant-and-constant-pointers-to-constants/)
