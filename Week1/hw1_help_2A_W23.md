@@ -7,5 +7,5 @@ Before you start homework 1,Question 1: Read about references and how do they di
 Difference between parameters and arguments: [geeksforgeeks](https://www.geeksforgeeks.org/difference-between-argument-and-parameter-in-c-c-with-examples/)
 
 ### Question 2:
-- Only knowing about ofstream and how to write on a file is sufficient knowledge to solve this question.[geeksforgeeks](https://www.geeksforgeeks.org/file-handling-c-classes/)
+- Only knowing about ofstream and how to write on a file is sufficient knowledge to solve this question.[TA_notes](https://github.com/nikunjsanghai/PIC10B_Disc_1C_2A/blob/main/Week1/file_streaming.md)
 
