@@ -68,7 +68,8 @@ p: is pointer to 0th element of the array arr, while ptr is a pointer that point
 The following figure shows the pointer p and ptr. Darker arrow denotes pointer to an array. 
 <img width="533" alt="pointer_to_array" src="https://user-images.githubusercontent.com/103468688/212976774-7110d06b-54c6-4fad-9ee8-a8df906f4e17.png">
 On dereferencing a pointer expression we get a value pointed to by that pointer expression. Pointer to an array points to an array, so on dereferencing it, we should get the array, and the name of array denotes the base address.
-So whenever a pointer to an array is dereferenced, we get the base address of the array to which it points. 
+So whenever a pointer to an array is dereferenced, we get the base address of the array to which it points.                  
+
 ```
 // C++ program to illustrate sizes of
 // pointer of array
