@@ -99,3 +99,8 @@ p = 0x7ffde1ee5010, ptr = 0x7ffde1ee5010
 sizeof(p) = 8, sizeof(*p) = 4
 sizeof(ptr) = 8, sizeof(*ptr) = 20
 ```
+Reference Links : [geeksforgeeks](https://www.geeksforgeeks.org/pointer-array-array-pointer/) [stackoverflow](https://stackoverflow.com/questions/10252837/pointer-to-array-c)[stackoverflow](https://stackoverflow.com/questions/11829830/c-passing-an-array-pointer-as-a-function-argument) 
+
+### Array Decay
+
+Reference Links: [stackoverflow](https://stackoverflow.com/questions/1461432/what-is-array-to-pointer-decay) [geeksforgeeks](https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented/) [geeksforgeeks](https://www.geeksforgeeks.org/using-sizof-operator-with-array-paratmeters-in-c/)
