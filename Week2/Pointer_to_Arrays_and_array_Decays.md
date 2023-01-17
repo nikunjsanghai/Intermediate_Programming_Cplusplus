@@ -102,5 +102,55 @@ sizeof(ptr) = 8, sizeof(*ptr) = 20
 Reference Links : [geeksforgeeks](https://www.geeksforgeeks.org/pointer-array-array-pointer/) [stackoverflow](https://stackoverflow.com/questions/10252837/pointer-to-array-c)[stackoverflow](https://stackoverflow.com/questions/11829830/c-passing-an-array-pointer-as-a-function-argument) 
 
 ### Array Decay
+The loss of type and dimensions of an array is known as decay of an array.This generally occurs when we pass the array into function by value or pointer. What it does is, it sends first address to the array which is a pointer, hence the size of array is not the original one, but the one occupied by the pointer in the memory.
+```
+// C++ code to demonstrate array decay
+#include<iostream>
+using namespace std;
+
+// Driver function to show Array decay
+// Passing array by value
+void aDecay(int *p)
+{
+	// Printing size of pointer
+	cout << "Modified size of array is by "
+			" passing by value: ";
+	cout << sizeof(p) << endl;
+}
+
+// Function to show that array decay happens
+// even if we use pointer
+void pDecay(int (*p)[7])
+{
+	// Printing size of array
+	cout << "Modified size of array by "
+			"passing by pointer: ";
+	cout << sizeof(p) << endl;
+}
+
+int main()
+{
+	int a[7] = {1, 2, 3, 4, 5, 6, 7,};
+
+	// Printing original size of array
+	cout << "Actual size of array is: ";
+	cout << sizeof(a) <<endl;
+
+	// Passing a pointer to array
+	aDecay(a);
+	
+	// Calling function by pointer
+	pDecay(&a);
+
+	return 0;
+}
+```
+Output:
+```
+Actual size of array is: 28
+Modified size of array by passing by value: 8
+Modified size of array by passing by pointer: 8
+```
+
 
 Reference Links: [stackoverflow](https://stackoverflow.com/questions/1461432/what-is-array-to-pointer-decay) [geeksforgeeks](https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented/) [geeksforgeeks](https://www.geeksforgeeks.org/using-sizof-operator-with-array-paratmeters-in-c/)
