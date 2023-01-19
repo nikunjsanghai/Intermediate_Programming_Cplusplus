@@ -46,7 +46,7 @@ b) In the scope of private, give it a member variable GPA. This should be of typ
                          
 
 c)Create the following constructors. Notice that constructors should be inside the scope of the public.                    
--  The first one should have no parameters, which initializes university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.             - -  The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0.           
+-  The first one should have no parameters, which initializes university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.               -  The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0.           
 -  The third should have three parameters, which initialize 'name', 'UID', GPA  and credits accordingly.                    
 -   
 string display_name () returns name.                                              
