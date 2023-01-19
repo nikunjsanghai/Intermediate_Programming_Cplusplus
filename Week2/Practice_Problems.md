@@ -11,7 +11,7 @@ Enter the array elements:
 5
 The array is not unique. 
 ```
-### Dynamic Memory allocation
+### Dynamic Memory Allocation
 Based  on your understanding of memory allocation and scope/lifetime of variables.First point out all the errors in the code. Then correct the code
 ```
 #include<iostream>
