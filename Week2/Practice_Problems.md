@@ -65,8 +65,8 @@ Q2.Here we'd like to create a different class private_university which has new f
 a)In private give a member variable CMU with type specifier university and give a member variable funding with specifier double.                              
 -  The first one should have no parameters, which initializes funding ot be 0,university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.                                  
 -  The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0. Initializes funding ot be 0.                      
--  The third should have three parameters, Initializes funding  to 0 and  which initialize 'name', 'UID', GPA  and credits for university.         
--  The fourth should have four parameters, Initializes funding  accordingly and  which initialize 'name', 'UID', GPA  and credits for university.           
+-  The third should have four parameters, Initializes funding  to 0 and  which initialize 'name', 'UID', GPA  and credits for university.         
+-  The fourth should have five parameters, Initializes funding  accordingly and  which initialize 'name', 'UID', GPA  and credits for university.           
 
 
 ### Operator Overloading 
