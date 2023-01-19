@@ -11,6 +11,34 @@ Enter the array elements:
 5
 The array is not unique. 
 ```
+### Dynamic Memory allocation
+Based  on your understanding of memory allocation and scope/lifetime of variables.First point out all the errors in the code. Then correct the code
+```
+#include<iostream>
+void demonstrate()
+{
+	int a = 10;
+	int* p = &a;
+	int* ptr1;
+	int* ptr = new int(5);
+	int* ptr_arr = new int[14];
+	{
+		ptr1 = ptr;
+		int* ptr_new = new int(7);
+		int* ptr3 = ptr1;
+		delete p;
+		delete ptr3;
+	}
+	std::cout << *p;
+	std::cout << *ptr;
+	std::cout << *ptr_new;
+	std::cout << *ptr3;
+}
+int main()
+{
+	demonstrate();
+}
+```
 
 
 ### Operator Overloading 
