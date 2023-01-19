@@ -1,4 +1,19 @@
-# Operator Overloading 
+### Passing an array as an argument
+Q1. Write a program to write a function based on the function signature bool unique(int\* arr,int size) which return true if all elements in an array are unique, but returns false if duplicates exist. Write a suitable main function to ask for size of the array and then corresponding entries for the array to take in as input and call the fucntion unique. In the end display the result "The array is unique/ not unique". 
+
+```
+Enter the array size:5
+Enter the array elements:
+1
+2
+2
+4
+5
+The array is not unique. 
+```
+
+
+### Operator Overloading 
 
 ### Question: Write a program to achieve complex number devision.  
 - **Classname:** Point2D
