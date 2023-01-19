@@ -39,8 +39,34 @@ int main()
 	demonstrate();
 }
 ```
+### Composition
+Q1.a) Create a class university 
 
+b) In the scope of private, give it a member variable GPA. This should be of type double. Give it a member variable name with the specifier string, and a member variable UID with the specifier int, and a member variable credits which is int.                          
 
+c)Create the following constructors. Notice that constructors should be inside the scope of the public.                    
+1 The first one should have no parameters, which initializes university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.             
+2 The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0.           
+3 The third should have three parameters, which initialize 'name', 'UID', GPA  and credits accordingly.                    
+d)
+string display_name () returns name.                                              
+
+int display_UID() returns the UID.                                               
+
+double display_GPA should have no explicit parameters and return the GPA of a student.                    
+double display_credits should have no explicit parameters and return the credits of a student.                       
+void update_GPA(double sub,int cred) updates GPA based on past credits taken and the credits completed and grade achieved for the new subject.                   
+```
+university A("Nikunj",400095678,3.5,4);
+A.update_GPA(4,4);//new GPA is now 3.75 and credits is 8
+```
+Q2.Here we'd like to create a different class private_university which has new features compared with the class university. Since some functionalities of these two classes are the same, we could use the code of the class university via composition.                                                                   
+
+a)In private give a member variable CMU with type specifier university and give a member variable funding with specifier double. 
+1 The first one should have no parameters, which initializes funding ot be 0,university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.             
+2 The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0. Initializes funding ot be 0.          
+3 The third should have three parameters, Initializes funding  to 0 and  which initialize 'name', 'UID', GPA  and credits for university.
+3 The fourth should have four parameters, Initializes funding  accordingly and  which initialize 'name', 'UID', GPA  and credits for university.
 ### Operator Overloading 
 
 ### Question: Write a program to achieve complex number devision.  
