@@ -66,8 +66,69 @@ a)In private give a member variable CMU with type specifier university and give 
 -  The first one should have no parameters, which initializes funding ot be 0,university's GPA to 0.0, UID to be 0,credits to 0 and name to be an empty string variable.                                  
 -  The second should have two parameters, and initialize name and UID accordingly. The GPA and credits in this case is still 0. Initializes funding ot be 0.                      
 -  The third should have four parameters, Initializes funding  to 0 and  which initialize 'name', 'UID', GPA  and credits for university.         
--  The fourth should have five parameters, Initializes funding  accordingly and  which initialize 'name', 'UID', GPA  and credits for university.           
+-  The fourth should have five parameters, Initializes funding  accordingly and  which initialize 'name', 'UID', GPA  and credits for university.
+void print(): prints all the values of the private_university object
 
+### Solution
+```
+#include"Header.h"
+university::university() :name(""), GPA(0.0), UID(0), credits(0) {};
+university::university(std::string n, int u) :name(n), UID(u), GPA(0.0), credits(0) {};
+university::university(std::string n, int u, double g, int c) :name(n), UID(u), GPA(g), credits(c) {};
+std::string university::display_name()
+{
+	return name;
+}
+int university::display_UID()
+{
+	return UID;
+}
+double university::display_GPA()
+{
+	return GPA;
+}
+double university::display_credits()
+{
+	return credits;
+}
+void university::update_GPA(double sub, int cred)
+{
+	double up = (GPA * credits + sub * cred) / (credits + cred);
+	GPA = up;
+	credits = credits + cred;
+}
+
+class private_university
+{
+public:	
+	private_university();
+	private_university(std::string n, int u);
+	private_university(std::string n, int u, double g,int c);
+	private_university(std::string n, int u, double g, int c, double f);
+	void print();
+
+private:
+	university CMU;
+	double funding;
+};
+private_university::private_university() :funding(0.0), CMU() {};
+private_university::private_university(std::string n, int u) :funding(0.0), CMU(n, u) {};
+private_university::private_university(std::string n, int u, double g, int c) :funding(0.0), CMU(n, u, g, c) {};
+private_university::private_university(std::string n, int u, double g, int c, double f):funding(f), CMU(n, u, g, c) {};
+void private_university::print()
+{
+	std::cout << "Student Name:"<<CMU.display_name() << std::endl;
+	std::cout << "Student UID:"<<CMU.display_UID() << std::endl;
+	std::cout << "Student GPA:"<<CMU.display_GPA() << std::endl;
+	std::cout << "Credits completed:"<<CMU.display_credits() << std::endl;
+	std::cout << "Funding is:$"<<funding << std::endl;
+}
+int main()
+{
+	private_university K("Nikunj", 400098765, 3.5, 4, 10000);
+	K.print();
+}
+```
 
 ### Operator Overloading 
 
