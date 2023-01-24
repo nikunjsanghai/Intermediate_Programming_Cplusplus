@@ -87,8 +87,9 @@ CBA
 CAB
 ```
 Reference Links:[geeksforgeeks](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
-[geekforgeeks](https://www.geeksforgeeks.org/print-all-possible-permutations-of-an-array-vector-without-duplicates-using-backtracking/)
-Reference Links[Scalar](https://www.scaler.com/topics/data-structures/recursion-and-backtracking/) 
+[geekforgeeks](https://www.geeksforgeeks.org/print-all-possible-permutations-of-an-array-vector-without-duplicates-using-backtracking/)                         
+
+Reference Links:Scalar](https://www.scaler.com/topics/data-structures/recursion-and-backtracking/) 
 [Stackoverflow](https://stackoverflow.com/questions/42811988/recursive-backtracking-in-c)
 [geeksforgeeks](https://www.geeksforgeeks.org/introduction-to-backtracking-data-structure-and-algorithm-tutorials/)
 [stackoverflow](https://stackoverflow.com/questions/30946137/recursive-permutations-using-vector)
