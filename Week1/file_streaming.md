@@ -59,4 +59,30 @@ The sky is            blue
 Sample Output:
 ehT yks si eulb
 ```
+Solution:
+```
+void demonstrate1()
+{
+	std::fstream fin;
+	std::string name;
+	std::vector <std::string> arr;
+	fin.open("output.txt");
+	while (fin>> name)
+	{
+		arr.push_back(name);
+	}
+	fin.close();//reading from the file phase is over
+	for (int i = 0, N = arr.size(); i < N; i++)// let's run through the vector 
+	{
+		int a = arr[i].length(); std::string n = "";//length of the string in a vector element, and a sample string to reverse the string
+		for (int j = a-1; j >= 0; j--)
+		{
+			n = n + arr[i].substr(j, 1);
+		}
+		std::cout << n << " ";
+
+	}
+
+}
+```
 Reference link: [geeksforgeeks](https://www.geeksforgeeks.org/file-handling-c-classes/) [tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm)
