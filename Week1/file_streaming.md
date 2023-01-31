@@ -17,7 +17,7 @@ In C++, files are mainly dealt by using three classes fstream, ifstream, ofstrea
 - ifstream: Stream class to read from files 
 - fstream: Stream class to both read and write from/to files
 
-Only looking at this example is enough to know implementation of how to write to a file 
+Only looking at this example is enough to know implementation of how to write to a file.The example below writes to a file and takes input from the file. 
 ```
 /* File Handling with C++ using ifstream & ofstream class object*/
 /* To write the Content in File*/
@@ -25,108 +25,38 @@ Only looking at this example is enough to know implementation of how to write to
 #include <iostream>
 
 /* fstream header file for ifstream, ofstream,
-fstream classes */
+fstream classes */ 
 #include <fstream>
 
-using namespace std;
-
-// Driver Code
-int main()
+std::ifstream fin;
+std::ofstream fout;
+std::string name;
+std::string arr[3];
+fout.open("output.txt");
+for (size_t i = 0; i < 3; i++)
 {
-	// Creation of ofstream class object
-	ofstream fout;
-
-	string line;
-
-	// by default ios::out mode, automatically deletes
-	// the content of file. To append the content, open in ios:app
-	// fout.open("sample.txt", ios::app)
-	fout.open("sample.txt");
-
-	// Execute a loop If file successfully opened
-	while (fout) {
-
-		// Read a Line from standard input
-		getline(cin, line);
-
-		// Press -1 to exit
-		if (line == "-1")
-			break;
-
-		// Write line in file
-		fout << line << endl;
-	}
-
-	// Close the File
-	fout.close();
-
-	// Creation of ifstream class object to read the file
-	ifstream fin;
-
-	// by default open mode = ios::in mode
-	fin.open("sample.txt");
-
-	// Execute a loop until EOF (End of File)
-	while (getline(fin, line)) {
-	
-		// Print line (read from file) in Console
-		cout << line << endl;
-	}
-
-	// Close the file
-	fin.close();
-
-	return 0;
+	std::getline(std::cin, name);
+	fout << name << std::endl;
 }
-```
-Another Example:
-```
-#include <fstream>
-#include <iostream>
-using namespace std;
- 
-int main () {
-   char data[100];
-
-   // open a file in write mode.
-   ofstream outfile;
-   outfile.open("afile.dat");
-
-   cout << "Writing to the file" << endl;
-   cout << "Enter your name: "; 
-   cin.getline(data, 100);
-
-   // write inputted data into the file.
-   outfile << data << endl;
-
-   cout << "Enter your age: "; 
-   cin >> data;
-   cin.ignore();
-   
-   // again write inputted data into the file.
-   outfile << data << endl;
-
-   // close the opened file.
-   outfile.close();
-
-   // open a file in read mode.
-   ifstream infile; 
-   infile.open("afile.dat"); 
- 
-   cout << "Reading from the file" << endl; 
-   infile >> data; 
-
-   // write the data at the screen.
-   cout << data << endl;
-   
-   // again read the data from the file and display it.
-   infile >> data; 
-   cout << data << endl; 
-
-   // close the opened file.
-   infile.close();
-
-   return 0;
+fout.close();
+fin.open("output.txt");
+for (size_t i = 0; i < 3; i++)
+ {
+        std::getline(fin, name);
+	arr[i] = name;
 }
+for (size_t i = 0; i < 3; i++)
+{
+	std::cout << arr[i] << std::endl;
+}
+fin.close();
+
+```
+Practice Problem: Write a program to take input from a file "output.txt" which contains only one line, and reverse all the letters in each word of the sentence, without alterating the original sentence in the file, only printing out the modified sentence out on the console, evenly spaced with a single blank space after each word. 
+```
+Sample Input:
+The sky is            blue
+Sample Output:
+ehT yks si eulb
 ```
 Reference link: [geeksforgeeks](https://www.geeksforgeeks.org/file-handling-c-classes/) [tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm)
