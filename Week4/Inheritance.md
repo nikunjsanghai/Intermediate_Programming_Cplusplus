@@ -114,6 +114,8 @@ main()
      
 }
 ```
+### Important Chart 
+![inheritance](https://user-images.githubusercontent.com/103468688/217828114-b52797db-160a-4e45-804c-a442fea63d90.png)
 
 Reference Links: [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-in-c/) [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-ambiguity-in-cpp/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-containership-and-inheritance-in-c/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/runtime-polymorphism-in-various-types-of-inheritance-in-c/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/inheritance-and-friendship-in-cpp/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/constructor-in-multilevel-inheritance-in-cpp/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-single-and-multiple-inheritance-in-c/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/does-overloading-work-with-inheritance/?ref=rp) [GeeksforGeeks](https://www.geeksforgeeks.org/constructor-in-multiple-inheritance-in-cpp/?ref=rp)
 
