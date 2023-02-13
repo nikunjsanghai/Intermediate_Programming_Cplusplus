@@ -95,9 +95,23 @@ return 0;
 }
 ```
 This example does not work, but the example in Prof Midterm problem works. We will use the same rule mentioned above. For function 1 and 2, there is an exact match for 6.3 for function 2, but function 1 needs to apply a conversion(Promotion), for the second argument there is an exact match for function 1, but function 2 needs a conversion. Finally for the third argument function 2 again is the better match but since function 2, needed a conversion for argument 2. It never held the rule that we discussed above **It needs to provide a better match than all other candidates in at least one parameter, and no worse for all of the other parameters** thus this example is an ambiguous function call and will result in an error. 
+```
+//functions 
+void moo(int);
+void moo(int, double);
+void moo(const std::string);
+void moo(int, int, double);//function 4 
+void moo(int, double, double); //function 5 
+//function call 
+moo(11 , 11) ;
+moo( " hey " ) ;
+moo(7 , 8 , 9) ;//example 3 
+moo( 6 . 3 , 0 , 1) ;//example 4 
+//moo(6.3,8.8,1);//example 5 
+```
+For example 3, we have function 4 providing a better match in argument 2 and no worse than function 5 for the rest of the parameters;So function 4 will be called. For example 4 this is the exact same case for the 2nd argument we have a better match in function 4 with no worse in all other arguments when we compare func 4 and fun 5, thus fun 4 is called again.                             
 
-
-
+Example 5  both func 4 and func 5 need type-conversion for the first argument,func 5 is better for the second argument(exact match) and for the third argument both functions need type conversion, thus the rule is still consistent. We will call function 5.  
 
 
 Overload resolution: [microsoft](https://learn.microsoft.com/en-us/cpp/cpp/function-overloading?view=msvc-170) [IBM](https://www.ibm.com/docs/en/i/7.3?topic=conversions-function-argument)
