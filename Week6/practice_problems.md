@@ -170,5 +170,5 @@ Solutions
 9.15
 10.1000 2000 4000 4000 2000 1000
 11.8
-
+```
 Ref Link:[geeksforgeeks](https://www.geeksforgeeks.org/algorithms-gq/recursion-gq/)
