@@ -27,15 +27,29 @@ template<typename T> T swapping<T>::get_second() const
 {
 
 }
-//function template specialization
-template<>
+//class  template specialization for std::string data type
+template <> 
+class swapping<std::string>
+{
+public:
+	swapping(std::string f, std::string s);
+	swapping swapp();
+	std::string get_first() const;
+	std::string get_second() const;
+private:
+	std::string first;
+	std::string second;
+};
+swapping<std::string>::swapping(std::string f,std::string s):first(f),second(s){};
 swapping<std::string> swapping<std::string>::swapp()
 {
 
 }
-template<>
 std::string swapping<std::string>::get_first() const
 {
 
+}
+std::string swapping<std::string>::get_second() const
+{
 }
 ```
