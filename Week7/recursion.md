@@ -77,3 +77,22 @@ void indirectRecFun2()
 }
 ```
 ### Mutual Recursion
+Mutual recursion is a variation recursion. Two functions are called mutually recursive if the first function makes a recursive call to the second function and the second function, in turn, calls the first one.
+```
+boolean even( int number )
+{    
+    if( number == 0 )
+        return true;
+    else
+        return odd(abs(number)-1)
+}
+
+boolean odd( int number )
+{
+    if( number == 0 )
+        return false;
+    else
+        return even(abs(number)-1);
+}
+```
+Ref Links: [geeksforgeeks](https://www.geeksforgeeks.org/mutual-recursion-example-hofstadter-female-male-sequences/) [geeksforgeeks](https://stackoverflow.com/questions/2725038/are-there-any-example-of-mutual-recursion) [geeksforgeeks](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
