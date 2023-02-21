@@ -31,7 +31,7 @@ unsigned int fact(unsigned int n)
 		return 1;
 
 	return n * fact(n - 1);
-}
+} 
 
 // Driver program to test above function
 int main()
