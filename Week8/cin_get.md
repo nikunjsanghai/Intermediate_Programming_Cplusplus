@@ -19,4 +19,32 @@ std::string a;
 std::cin >> a;              // single word
 std::getline(std::cin, a);  // whole line
 ```
-Ref Links: [geeksforgeeks](https://www.geeksforgeeks.org/cin-get-in-c-with-examples/) 
+### cin.unget()
+The basic_istream::unget() is used to unget the character and used to decrease the location by one character and makes the extracted character available for used once again. 
+```
+// C++ code for basic_istream::unget()
+#include <bits/stdc++.h>
+using namespace std;
+
+// Driver code
+int main()
+{
+	// Declare string stream
+	istringstream gfg("GeeksforGeeks");
+
+	char a = gfg.get();
+	if (gfg.unget()) {
+		char b = gfg.get();
+		cout << "We got: " << a << endl;
+		cout << "After ungetting the "
+			<< "character once again"
+			<< " we got: "
+			<< b << endl;
+	}
+
+	return 0;
+}
+```
+
+Ref Links: [geeksforgeeks](https://www.geeksforgeeks.org/cin-get-in-c-with-examples/) [stackoverflow](
+https://stackoverflow.com/questions/29630513/difference-between-cin-and-cin-get-for-char-array) [geeksforgeeks](https://www.geeksforgeeks.org/basic_istreamunget-in-c-with-examples/)
