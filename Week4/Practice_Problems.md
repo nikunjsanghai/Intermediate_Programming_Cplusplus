@@ -22,6 +22,19 @@ cout << n%2 << endl;
 ```
 Q3.
 ```
+void fun2(int n)
+{
+  if (n <= 0)
+     return;
+  if (n > LIMIT)
+    return;
+  cout << n <<" ";
+  fun2(2*n);
+  cout << n <<" ";
+}
+```
+Q4. Try later not now
+```
 
 #include <iostream>
 using namespace std;
@@ -48,6 +61,69 @@ Q4.
 ```
 #include <iostream>
 using namespace std;
+int fun(int a, int b)
+{
+	if (b == 0)
+		return 0;
+	if (b % 2 == 0)
+		return fun(a + a, b/2);
+	
+	return fun(a + a, b/2) + a;
+}
+
+int main()
+{
+	cout << fun(4, 3) ;
+	return 0;
+}
+```
+Q5.
+```
+#include <iostream>
+using namespace std;
+
+int fun(int a, int b)
+{
+if (b == 0)
+	return 1;
+if (b % 2 == 0)
+	return fun(a*a, b/2);
+
+return fun(a*a, b/2)*a;
+}
+
+int main()
+{
+cout << fun(4, 3) ;
+getchar();
+return 0;
+}
+```
+Q6. Do not try now 
+```
+#include <iostream>
+using namespace std;
+
+int fun(int count)
+{
+	cout << count << endl;
+	if(count < 3)
+	{
+		fun(fun(fun(++count)));
+	}
+	return count;
+}
+
+int main()
+{
+	fun(1);
+	return 0;
+}
+```
+Q.7
+```
+#include <iostream>
+using namespace std;
   
 int fun(int a[],int n)
 {
@@ -70,7 +146,7 @@ int main()
   return 0;
 }
 ```
-Q5.
+Q8.
 ```
 #include <iostream>
 using namespace std;
@@ -96,5 +172,16 @@ int main()
     return 0;
 }
 ```
+Solution for Q6.
+```
+1
+2
+3
+3
+3
+3
+3
+```
+Link: [geeksforfgeeks](https://www.geeksforgeeks.org/practice-questions-for-recursion-set-6/?ref=rp)
 Link: [geeksforgeeks](https://www.geeksforgeeks.org/practice-questions-for-recursion-set-7/)
      
