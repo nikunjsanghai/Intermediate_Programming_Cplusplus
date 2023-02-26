@@ -19,7 +19,7 @@ An iterator is an object (like a pointer) that points to an element inside the c
 
 - **Random-Access Iterators:** They are the most powerful iterators. They are not limited to moving sequentially, as their name suggests, they can randomly access any element inside the container. They are the ones whose functionality are same as pointers.   
 
-Reference Links: [cplusplus](https://cplusplus.com/reference/iterator/#:~:text=An%20iterator%20is%20any%20object,dereference%20(%20*%20)%20operators)
+Reference Links: [cplusplus](https://cplusplus.com/reference/iterator/#:~:text=An%20iterator%20is%20any%20object,dereference%20(%20*%20)%20operators) [geeksforgeeks](https://www.geeksforgeeks.org/introduction-iterators-c/)
 
 For now let just look at basic implemetation of iterators and reflect on the difference using iterators makes in programming:
 ```
