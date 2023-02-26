@@ -67,6 +67,7 @@ int main()
 ```
 Now each one of these iterators are not supported by all the containers in STL, different containers support different iterators, like vectors support Random-access iterators, while lists support bidirectional iterators. The whole list is as given below:  
 ![iterators_containers](https://user-images.githubusercontent.com/103468688/221437053-a700fe17-1b31-4525-b942-b0ac038c4e97.png)
+One more implementation of iterators:
 
 ```
 #include <iostream>
