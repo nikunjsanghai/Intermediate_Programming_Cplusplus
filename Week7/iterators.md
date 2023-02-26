@@ -19,6 +19,8 @@ An iterator is an object (like a pointer) that points to an element inside the c
 
 - **Random-Access Iterators:** They are the most powerful iterators. They are not limited to moving sequentially, as their name suggests, they can randomly access any element inside the container. They are the ones whose functionality are same as pointers.   
 
+Reference Links: [cplusplus](https://cplusplus.com/reference/iterator/#:~:text=An%20iterator%20is%20any%20object,dereference%20(%20*%20)%20operators)
+
 For now let just look at basic implemetation of iterators and reflect on the difference using iterators makes in programming:
 ```
 // C++ program to demonstrate iterators
@@ -104,11 +106,6 @@ int main()
     return 0;
 }
 ```
-
-
-
-
-Reference Links [Link1](https://www.cplusplus.com/reference/iterator/#:~:text=An%20iterator%20is%20any%20object,dereference%20(%20*%20)%20operators) [Link2](https://www.geeksforgeeks.org/iterators-c-stl/) [Link3](https://www.geeksforgeeks.org/introduction-iterators-c/) [Link4](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)[Link5](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/) [Link6](https://www.geeksforgeeks.org/input-iterators-in-cpp/) [Link7](https://www.geeksforgeeks.org/output-iterators-cpp/) [Link7](https://www.geeksforgeeks.org/forward-iterators-in-cpp/) [Link8](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/) [link9](https://docs.microsoft.com/en-us/cpp/standard-library/iterators?view=msvc-170) [link10](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterators.html) [link11](https://en.cppreference.com/w/cpp/iterator/iterator) [link12](https://www.javatpoint.com/cpp-iterators)
 
 
  
