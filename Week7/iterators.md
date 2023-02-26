@@ -65,18 +65,8 @@ int main()
     return 0;
 }
 ```
-
-
-
-
 Now each one of these iterators are not supported by all the containers in STL, different containers support different iterators, like vectors support Random-access iterators, while lists support bidirectional iterators. The whole list is as given below:  
-
-![image](https://user-images.githubusercontent.com/103468688/168028238-0adfd2a9-3605-469a-9269-95e8e7f4413a.png)
-
-
-
-
-
+![iterators_containers](https://user-images.githubusercontent.com/103468688/221437053-a700fe17-1b31-4525-b942-b0ac038c4e97.png)
 
 ```
 #include <iostream>
