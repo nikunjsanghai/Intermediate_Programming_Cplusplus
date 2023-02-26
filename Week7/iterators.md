@@ -121,7 +121,5 @@ int main()
 
 Reference Links [Link1](https://www.cplusplus.com/reference/iterator/#:~:text=An%20iterator%20is%20any%20object,dereference%20(%20*%20)%20operators) [Link2](https://www.geeksforgeeks.org/iterators-c-stl/) [Link3](https://www.geeksforgeeks.org/introduction-iterators-c/) [Link4](https://www.geeksforgeeks.org/random-access-iterators-in-cpp/)[Link5](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/) [Link6](https://www.geeksforgeeks.org/input-iterators-in-cpp/) [Link7](https://www.geeksforgeeks.org/output-iterators-cpp/) [Link7](https://www.geeksforgeeks.org/forward-iterators-in-cpp/) [Link8](https://www.geeksforgeeks.org/bidirectional-iterators-in-cpp/) [link9](https://docs.microsoft.com/en-us/cpp/standard-library/iterators?view=msvc-170) [link10](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterators.html) [link11](https://en.cppreference.com/w/cpp/iterator/iterator) [link12](https://www.javatpoint.com/cpp-iterators)
 
-There are more than 10 articles on Linked Lists all are linked in this article: [Link1](https://www.geeksforgeeks.org/data-structures/linked-list/#singlyLinkedList)
 
-More reference articles:[link1](https://www.geeksforgeeks.org/implementing-iterator-pattern-of-a-single-linked-list/) [link2](https://www.geeksforgeeks.org/linked-list-vs-array/) [link3](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) [link4](https://www.geeksforgeeks.org/templates-cpp/) 
  
