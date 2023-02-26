@@ -5,11 +5,9 @@ std::vector<int> vec={1,2,3,4}
 vec.insert(vec.begin()+2,5)
 vec.erase(vec.begin())//erases the first element
 ```
-An iterator is an object (like a pointer) that points to an element inside the container. We can use iterators to move through the contents of the container. They can be visualized as something similar to a pointer pointing to some location and we can access the content at that particular location using them. Iterators play a critical role in connecting algorithm with containers along with the manipulation of data stored inside the containers. The most obvious form of an iterator is a pointer. A pointer can point to elements in an array and can iterate through them using the increment operator (++). But, all iterators do not have similar functionality as that of pointers. Depending upon the functionality of iterators they can be classified into five categories, as shown in the diagram below with the outer one being the most powerful one and consequently the inner one is the least powerful in terms of functionality.  
+An iterator is an object (like a pointer) that points to an element inside the container. We can use iterators to move through the contents of the container. They can be visualized as something similar to a pointer pointing to some location and we can access the content at that particular location using them. Iterators play a critical role in connecting algorithm with containers along with the manipulation of data stored inside the containers. The most obvious form of an iterator is a pointer. A pointer can point to elements in an array and can iterate through them using the increment operator (++). But, all iterators do not have similar functionality as that of pointers. Depending upon the functionality of iterators they can be classified into five categories, as shown in the venn diagram below from the most powerful one and consequently the inner one is the least powerful in terms of functionality.  
+![Iterators_venn_diagram](https://user-images.githubusercontent.com/103468688/221435105-0e7c358a-97a5-42e9-b20b-bac5fa381466.png)
 
-![image](https://user-images.githubusercontent.com/103468688/168027966-1ff35463-bcd5-4eb7-ac54-59787ee34916.png).   
-There are different kinds which support different functionality:.   
-![image](https://user-images.githubusercontent.com/103468688/168152009-17d5c9c1-88f3-4b7d-9f48-346c32a1c276.png).   
 
 Input Iterators: They are the weakest of all the iterators and have very limited functionality. They can only be used in a single-pass algorithms, i.e., those algorithms which process the container sequentially, such that no element is accessed more than once.   
 
