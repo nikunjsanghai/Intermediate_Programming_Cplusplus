@@ -28,3 +28,5 @@ container adapters provide a different interface for sequential containers.
 - stack: Adapts a container to provide stack (LIFO data structure) (class template).
 - queue: Adapts a container to provide queue (FIFO data structure) (class template).
 - priority_queue: Adapts a container to provide priority queue (class template). 
+
+Reference Links:[geeksforgeeks](https://www.geeksforgeeks.org/containers-cpp-stl/)
