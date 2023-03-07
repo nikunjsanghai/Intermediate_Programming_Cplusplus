@@ -1,4 +1,4 @@
-#### Amazing reference links for all topics
+
 #### Inheritance: [link](https://www.geeksforgeeks.org/inheritance-in-c/)
 #### Inheritance vs Friendship difference:[link](https://www.geeksforgeeks.org/inheritance-and-friendship-in-cpp/?ref=rp)
 #### Encapsulation:[Link](https://www.geeksforgeeks.org/encapsulation-in-c/)
