@@ -44,4 +44,6 @@ Inorder Traversal: The nodes are traversed in the format of left subtree and the
 
 Post Traversal: The nodes are traversed in the format of left subtree  and then right subtree and then root                  
 
+BST visualization: [usfca](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
 Reference Links:[geeksforgeeks](https://www.geeksforgeeks.org/binary-search-tree-data-structure/) [geeksforgeeks](https://www.geeksforgeeks.org/introduction-to-binary-search-tree-data-structure-and-algorithm-tutorials/) [geeksforgeeks](https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-search-tree/)
