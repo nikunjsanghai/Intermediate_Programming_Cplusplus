@@ -15,3 +15,4 @@ MyClass& MyClass::operator=(const MyClass &rhs) {
     return *this; //Return self
 }
 ```
+reference link:[stackoverflow](https://stackoverflow.com/questions/9072169/why-should-the-assignment-operator-return-a-reference-to-the-object)
