@@ -47,3 +47,5 @@ Post Traversal: The nodes are traversed in the format of left subtree  and then 
 BST visualization: [usfca](https://www.cs.usfca.edu/~galles/visualization/BST.html)
 
 Reference Links:[geeksforgeeks](https://www.geeksforgeeks.org/binary-search-tree-data-structure/) [geeksforgeeks](https://www.geeksforgeeks.org/introduction-to-binary-search-tree-data-structure-and-algorithm-tutorials/) [geeksforgeeks](https://www.geeksforgeeks.org/applications-advantages-and-disadvantages-of-binary-search-tree/)
+
+Reference Link for BST: [tejasviswa](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/tree/main/Week_9)
