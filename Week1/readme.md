@@ -7,7 +7,7 @@ This read me is planned to give you the tools need to solve and submit the homew
 - [arrays](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/arrays.md)
 - [vectors](https://github.com/nikunjsanghai/PIC10A_1D/blob/main/Week7/vectors.md)
 - [pointers and references](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/Pointers_and_References.md)
-- [functions: call by reference and call by value]()
+- [functions: call by reference and call by value](https://github.com/nikunjsanghai/PIC10A_1D/blob/main/Week5/pass_by_value_vs_pass_by_reference.md)
 
 **Discussion 2**            
 
