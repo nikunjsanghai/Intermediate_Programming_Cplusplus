@@ -2,7 +2,7 @@
 This read me is planned to give you the tools need to solve and submit the homework       
 
 **Discussion 1**
-
+- How to create a project in Microsoft Visual Studio Community? [It is different from VS Code]
 - Resources to know about decimal<-> binary <-> hexadecimal [link](https://www.geeksforgeeks.org/how-to-convert-decimal-to-hexadecimal/)
 - [arrays](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/arrays.md)
 - [vectors](https://github.com/nikunjsanghai/PIC10A_1D/blob/main/Week7/vectors.md)
