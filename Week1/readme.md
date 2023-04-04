@@ -15,3 +15,6 @@ This read me is planned to give you the tools need to solve and submit the homew
 - [Ranged based for loops]()
 - [pointer to array and pointer decay]()      
 - [function pointers]()       
+Office Hours on Thursday 
+
+HW1 Due on Sunday. 
