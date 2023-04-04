@@ -5,7 +5,7 @@ This read me is planned to give you the tools need to solve and submit the homew
 
 - Resources to know about decimal<-> binary <-> hexadecimal [link](https://www.geeksforgeeks.org/how-to-convert-decimal-to-hexadecimal/)
 - [arrays]()
-- [vectors]()
+- [vectors](https://github.com/nikunjsanghai/PIC10A_1D/blob/main/Week7/vectors.md)
 - [pointers and references]()
 - [functions: call by reference and call by value]()
 
