@@ -11,9 +11,9 @@ This read me is planned to give you the tools need to solve and submit the homew
 
 **Discussion 2**            
 
-- [Types of pointers]()
-- [Ranged based for loops]()
-- [pointer to array and pointer decay]()      
+- [Types of pointers](https://github.com/TejasViswa/PIC10B_Disc1B_Disc2B/blob/main/Week_1/Pointers_and_memory.md)
+- Ranged based for loops
+- [pointer to array and pointer decay]() 
 - [function pointers]() 
 
 HW1 Due on Sunday. 
