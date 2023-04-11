@@ -1,6 +1,6 @@
 Discussion 3
 - hw1 review
-- [function calling and overload resolution](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_overloading.md)
+- [function overloading](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_overloading.md)
 - [ranged based for loop](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/ranged_based_for_loop.md) 
 - [Iterators](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week7/iterators.md)
 -  [auto keyword](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/auto_keyword.md)
