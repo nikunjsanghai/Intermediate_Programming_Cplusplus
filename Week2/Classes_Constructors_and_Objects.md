@@ -25,7 +25,43 @@ An Object is an instance of a Class. When a class is defined, no memory is alloc
 
 ### Constructors
 Constructors are special class members which are called by the compiler every time an object of that class is instantiated. Constructors have the same name as the class and may be defined inside or outside the class definition. 
+Example:
+```
+// C++ program to demonstrate constructors
 
+#include <bits/stdc++.h>
+using namespace std;
+class Geeks
+{
+	public:
+	int id;
+	
+	//Default Constructor
+	Geeks()
+	{
+		cout << "Default Constructor called" << endl;
+		id=-1;
+	}
+	
+	//Parameterized Constructor
+	Geeks(int x)
+	{
+		cout <<"Parameterized Constructor called "<< endl;
+		id=x;
+	}
+};
+int main() {
+	
+	// obj1 will call Default Constructor
+	Geeks obj1;
+	cout <<"Geek id is: "<<obj1.id << endl;
+	
+	// obj2 will call Parameterized Constructor
+	Geeks obj2(21);
+	cout <<"Geek id is: " <<obj2.id << endl;
+	return 0;
+}
+```
 Classes: [IBM](https://www.ibm.com/docs/en/i/7.4?topic=reference-classes-c-only)  [Microsoft](https://learn.microsoft.com/en-us/cpp/cpp/class-cpp?view=msvc-170)            
 Classes and Objects: [geeksforgeeks](https://www.geeksforgeeks.org/c-classes-and-objects/)                    
 Constructors: [geeksforgeeks](https://www.geeksforgeeks.org/constructors-c/)                     
