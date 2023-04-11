@@ -1,11 +1,12 @@
 Discussion 3
+- hw1 review
+- function calling and overload resolution
+- ranged based for loop 
 - Iterators 
 - auto keyword
 - insert and erase operations
 - std::sort
-- ranged based for loop 
 - size_of
-- function calling and overload resolution
 - classes,constructors and objects 
 
 Discussion 4
