@@ -24,7 +24,12 @@ A C++ class is like a blueprint for an object. For Example: Consider the Class o
 An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.The data members and member functions of class can be accessed using the dot(‘.’) operator with the object. For example if the name of object is obj and you want to access the member function with the name printName() then you will have to write obj.printName()
 
 ### Constructors
-Constructors are special class members which are called by the compiler every time an object of that class is instantiated. Constructors have the same name as the class and may be defined inside or outside the class definition. 
+Constructors are special class members which are called by the compiler every time an object of that class is instantiated. Constructors have the same name as the class and may be defined inside or outside the class definition. Constructor in C++ is a special method that is invoked automatically at the time of object creation. It is used to initialize the data members of new objects generally. The constructor in C++ has the same name as the class or structure. Constructor is invoked at the time of object creation. It constructs the values i.e. provides data for the object which is why it is known as constructors.
+
+- Constructor is a member function of a class, whose name is same as the class name.
+- Constructor is a special type of member function that is used to initialize the data members for an object of a class automatically, when an object of the same class is created.
+- Constructor is invoked at the time of object creation. It constructs the values i.e. provides data for the object that is why it is known as constructor.
+- Constructor do not return value, hence they do not have a return type
 Example:
 ```
 // C++ program to demonstrate constructors
