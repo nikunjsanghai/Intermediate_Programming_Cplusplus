@@ -17,7 +17,14 @@ int main()
    X xobject2;       // create another object of class type X
 }
 ```
+### Relation between Classes and Objects
+A C++ class is like a blueprint for an object. For Example: Consider the Class of Cars. There may be many cars with different names and brand but all of them will share some common properties like all of them will have 4 wheels, Speed Limit, Mileage range etc. So here, Car is the class and wheels, speed limits, mileage are their properties.                             
 
+### Objects 
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.The data members and member functions of class can be accessed using the dot(‘.’) operator with the object. For example if the name of object is obj and you want to access the member function with the name printName() then you will have to write obj.printName()
+
+### Constructors
+Constructors are special class members which are called by the compiler every time an object of that class is instantiated. Constructors have the same name as the class and may be defined inside or outside the class definition. 
 
 Classes: [IBM](https://www.ibm.com/docs/en/i/7.4?topic=reference-classes-c-only)  [Microsoft](https://learn.microsoft.com/en-us/cpp/cpp/class-cpp?view=msvc-170)            
 Classes and Objects: [geeksforgeeks](https://www.geeksforgeeks.org/c-classes-and-objects/)                    
