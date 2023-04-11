@@ -4,7 +4,7 @@ Discussion 3
 - [ranged based for loop](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/ranged_based_for_loop.md) 
 - [Iterators](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week7/iterators.md)
 -  [auto keyword](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/auto_keyword.md)
--  [insert and erase operations]()
+-  [insert and erase operations](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
 -  [std::sort](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/std_sort_in_STL.md)
 -  [size_of](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/size_of_operator.md)
 - [classes,constructors and objects](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/Classes_Constructors_and_Objects.md) 
