@@ -11,8 +11,8 @@ Discussion 3
 
 Discussion 4
 - undefined behaviour 
-- L and R values
-- L and R value references 
+- [L and R values]
+- [L and R value references] 
 
 
 HW2 due on Sunday. 
