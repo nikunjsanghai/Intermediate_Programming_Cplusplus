@@ -1,6 +1,6 @@
 Discussion 3
 - hw1 review
-- function calling and overload resolution(https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_overloading.md)
+- [function calling and overload resolution](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_overloading.md)
 - ranged based for loop 
 - Iterators 
 - auto keyword
