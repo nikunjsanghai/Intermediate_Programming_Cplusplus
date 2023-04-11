@@ -106,6 +106,8 @@ int main()
     return 0;
 }
 ```
+Different types of operations supported by different iterators: 
+![iterators_operations](https://user-images.githubusercontent.com/103468688/231036242-2767a1d8-3f4f-42bf-8e7b-b69009857dc3.jpg)
 
 
  
