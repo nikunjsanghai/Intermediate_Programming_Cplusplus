@@ -11,8 +11,8 @@ Discussion 3
 
 Discussion 4
 - undefined behaviour 
-- [L and R values]
-- [L and R value references] 
+- [L and R values](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/L_and_R_values_v1.md)
+- [L and R value references]()
 
 
 HW2 due on Sunday. 
