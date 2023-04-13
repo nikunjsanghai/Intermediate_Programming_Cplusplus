@@ -10,6 +10,9 @@ Discussion 3
 - [classes,constructors and objects](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/Classes_Constructors_and_Objects.md) 
 
 Discussion 4
+- [difference between string and char arry](https://www.geeksforgeeks.org/stdstring-class-in-c/#) 
+- [string class constructors](https://cplusplus.com/reference/string/string/string/)
+- [memory space occupied by int* pointer vs int](https://stackoverflow.com/questions/20721294/size-of-int-and-sizeof-int-pointer-on-a-64-bit-machine) 
 - [undefined behaviour](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/undefined_behavior.md) 
 - [L and R values](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/L_and_R_values_v1.md)
 - [L and R value references](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/L_and_R_values_v2.md)
