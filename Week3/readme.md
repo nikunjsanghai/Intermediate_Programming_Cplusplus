@@ -9,6 +9,6 @@
 - [lambdas]() 
 - [inline functions]()
 - [move semantics]()
--[demo_code_car]()
+- [demo_code_car]()
 
 HW3 due on Sunday. 
