@@ -6,7 +6,33 @@ fully qualified name for each identifier, for example std::vector<std::string> v
 or a using Directive for all the identifiers in the namespace (using namespace std;). Code in header files should always use the fully qualified namespace name.
 
 The following example shows a namespace declaration and three ways that code outside the namespace can accesses their members.
-
+```
+#include <iostream>
+using namespace std;
+// first name space
+namespace first_space
+{
+  void func()
+  {
+     cout << "Inside first_space" << endl;
+  }
+}
+ 
+// second name space
+namespace second_space
+{
+  void func()
+  {
+     cout << "Inside second_space" << endl;
+  }
+}
+using namespace first_space;
+int main ()
+{
+   // This calls function from first name space.
+  func();
+  return 0;
+}
 ```
 namespace ContosoData
 {
@@ -38,4 +64,4 @@ ObjectManager mgr;
 mgr.DoSomething();
 Func(mgr);
 ```
-Reference Link: [microsoft](https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170)
+Reference Link: [microsoft](https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170)[geeksforgeeks](https://www.geeksforgeeks.org/namespace-in-c/#)
