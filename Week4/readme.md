@@ -1,6 +1,7 @@
 ### Discussion 7
 - namespaces in c++
-
+- move semantics 
+- operator overloading
 
 
 
