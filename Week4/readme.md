@@ -6,8 +6,7 @@
 
 
 ### Discussion 8
-
-
+- Class Demo(Composition + move semantics)
 
 
 
