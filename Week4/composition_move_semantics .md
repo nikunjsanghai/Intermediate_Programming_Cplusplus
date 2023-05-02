@@ -199,7 +199,7 @@ int main()
 	return 0;
 }
 ```
-### Comments on the code
+### Differences in return type in binary operators
 All three versions of the operator+ overload differ in their return types, which can affect the behavior and usage of the operator. Here are the differences between the three versions:
 
 - Point operator+(const Point& a);
@@ -212,3 +212,15 @@ This version of the operator+ overload returns a reference to a Point object. Th
 This version of the operator+ overload also returns a reference to a Point object, but it is a const reference. This means that the returned object cannot be modified. This version is useful when you want to return a reference to the left-hand operand, but you want to prevent any modifications to the returned object.
 
 It is important to choose the appropriate return type for your operator+ overload depending on your use case. If you want to modify the left-hand operand and return a reference to it, use the second version. If you want to create a new object that represents the sum of two existing objects, use the first version. If you want to return a reference to the left-hand operand, but prevent any modifications to the returned object, use the third version.
+
+### Difference in return type assignment operators 
+The difference between the two operator= overloads is the return type.
+
+- PointVector& operator=(const PointVector& p1);
+This overload returns a reference to the left-hand operand, which allows chaining of assignment operators, such as a = b = c, where the result of the right-hand side is assigned to the left-hand side, and the left-hand side is returned for further assignment.
+In the context of the expression a = b + c = d + e, this overload would allow chaining of assignments to b + c and d + e before the final result is assigned to a.
+
+- PointVector operator=(const PointVector& p1);
+This overload returns a copy of the left-hand operand, which does not allow chaining of assignment operators. In the context of the expression a = b + c = d + e, this overload would not allow chaining of assignments, so the expression would be equivalent to (a = (b + c)) = (d + e), which is not the desired behavior.
+Therefore, the first overload (PointVector& operator=(const PointVector& p1)) is the appropriate overload for the purpose of chaining assignments.
+
