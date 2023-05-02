@@ -199,3 +199,16 @@ int main()
 	return 0;
 }
 ```
+### Comments on the code
+All three versions of the operator+ overload differ in their return types, which can affect the behavior and usage of the operator. Here are the differences between the three versions:
+
+- Point operator+(const Point& a);
+This version of the operator+ overload returns a new Point object by value. This means that a copy of the result is returned, and any modifications made to the returned object will not affect the original object. This version is useful when you want to create a new object that represents the sum of two existing objects, but you don't want to modify either of the original objects.
+
+- Point& operator+(const Point& a);
+This version of the operator+ overload returns a reference to a Point object. This means that the actual object that is modified is the object that the function is called on. This version is useful when you want to modify the left-hand operand in place and return a reference to it.
+
+- const Point& operator+(const Point& a);
+This version of the operator+ overload also returns a reference to a Point object, but it is a const reference. This means that the returned object cannot be modified. This version is useful when you want to return a reference to the left-hand operand, but you want to prevent any modifications to the returned object.
+
+It is important to choose the appropriate return type for your operator+ overload depending on your use case. If you want to modify the left-hand operand and return a reference to it, use the second version. If you want to create a new object that represents the sum of two existing objects, use the first version. If you want to return a reference to the left-hand operand, but prevent any modifications to the returned object, use the third version.
