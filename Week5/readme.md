@@ -5,7 +5,7 @@
 - Q3. Why is Parameterized Constructor being called instead of Move Constructor? 
 - [operator overloading](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week3/operator_overloading.md) 
 - [File Streaming](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/file_streaming.md) 
-- [String Stream]()
+- [String Stream](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week5/string_stream.md)
 - [Inheritance](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/Inheritance.md)
 - [Inheritance:Virtual and Final Keyword](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/Virtual_and_final_keyword.md)
 - [Inheritance:Constructor calling based derived](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/constructor_calling_base_derived.md)
