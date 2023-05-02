@@ -9,6 +9,7 @@
 - [Inheritance](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/Inheritance.md)
 - [Inheritance:Virtual and Final Keyword](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/Virtual_and_final_keyword.md)
 - [Inheritance:Constructor calling based derived](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/constructor_calling_base_derived.md)
+- [Relationship between ostream and ofstream](https://cplusplus.com/reference/ios/)
 ### Discussion 10
 - [Polymorphism](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week5/Polymorphism.md)
 - [Polymorphism: Object Slicing](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week5/Object_Slicing.md)
