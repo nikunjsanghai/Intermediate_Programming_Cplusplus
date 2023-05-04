@@ -17,4 +17,16 @@
 - [Pure Virtual Function](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/pure_virtual_functions.md) 
 - [Pointers of based class pointing to derived class](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week5/Pointer_of_base_class_pointing_to_derived_class.md)
 
+### Talking Points 
+- derived class objects can use data members or member functions of the base class and not the other way around. 
+- virtual keyword/ runtime polymorphism is only possible with respect to a pointer or a reference type
+- Look at the definition of pre and post increment operators to determine the difference as to which one will be faster in C++. 
+- If you have << operator with arguments as non-const reference type they will not be able to access r-value types as a argument. 
+- We can have a derived class object assigned to a base class pointer and not the other way around. 
+- If the derived class object is assigned to a base class without pointer type then the object is sliced and becomes a base class object. 
+- Difference between function overloading and function overriding is that overloading is done at compile time whereas overriding happens at run-time. 
+- You can call base class functions using the scope resolution operator in C++. Refer to the class demo for more information. 
+- Some discussion over the HW5 Frac class will be done. 
+
+
 HW5 is due.
