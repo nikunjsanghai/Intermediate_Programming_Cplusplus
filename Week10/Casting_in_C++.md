@@ -1,4 +1,20 @@
 
+### C style casting 
+```
+#include <iostream>
+
+int main() {
+    double x = 3.14159;
+    int y = (int)x; // C-style casting from double to int
+
+    std::cout << "x = " << x << std::endl;
+    std::cout << "y = " << y << std::endl;
+
+    return 0;
+}
+```
+In this code, we declare a double variable x with the value 3.14159. We then use C-style casting to convert x to an int, which we store in the variable y. Finally, we print out the values of x and y using std::cout. Note that C-style casting is denoted by using parentheses around the target type, as in (int)x.
+
 ### Difference between C style class and C++ style cast: [Link](https://stackoverflow.com/questions/1609163/what-is-the-difference-between-static-cast-and-c-style-casting)
 Some Points:   
 C++ style casts are checked by the compiler. C style casts aren't and can fail at runtime.  
