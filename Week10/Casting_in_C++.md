@@ -1,4 +1,3 @@
-Reference Links for Abstract Classes and Pure virtual function: [Link](https://www.ibm.com/docs/en/zos/2.4.0?topic=only-abstract-classes-c) [Link](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/) [Link](https://docs.microsoft.com/en-us/cpp/cpp/abstract-classes-cpp?view=msvc-170) [Link](https://en.cppreference.com/w/cpp/language/abstract_class).    
 
 ### Difference between C style class and C++ style cast: [Link](https://stackoverflow.com/questions/1609163/what-is-the-difference-between-static-cast-and-c-style-casting)
 Some Points:   
