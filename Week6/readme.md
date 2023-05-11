@@ -10,7 +10,7 @@
 - [Type conversion in C++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week10/Casting_in_C.md)
 - [casting in c++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week10/Casting_in_C%2B%2B.md)
 - [smart pointers](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/smart_pointers.md)
-- [Exception handling in C++(try and catch blocks)]()
+- [Exception handling in C++(try and catch blocks)](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week7/Exception_Handling_in_C%2B%2B.md)
 - Templating in C++
 - Lambdas in C++
 - putchar in C++
