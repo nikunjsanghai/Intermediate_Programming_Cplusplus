@@ -13,8 +13,11 @@ bool -> char -> short int -> int ->
 unsigned int -> long -> unsigned -> 
 long long -> float -> double -> long double
 ```
-- It is possible for implicit conversions to lose information, signs can be lost (when signed is implicitly converted to unsigned), and overflow can occur (when long is implicitly converted to float).
+- It is possible for implicit conversions to lose information, signs can be lost (when signed is implicitly converted to unsigned), and overflow can occur (when long is implicitly converted to float).                      
+
+
 ![implicit_type_conversion](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/assets/103468688/8d8a78d7-5eb4-413f-98a5-e516cea24617)
+
 Example:
 ```
 // An example of implicit conversion
@@ -40,7 +43,7 @@ Output:
 x = 107, z = 108.000000
 ```
 ### Explicit Type Conversion
-![explicit_type_conversion](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/assets/103468688/0856e326-dcea-4b2c-8a91-6d9e5c9d2895)
+![explicit_type_conversion](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/assets/103468688/0856e326-dcea-4b2c-8a91-6d9e5c9d2895)                   
 This process is also called type casting and it is user-defined. Here the user can typecast the result to make it of a particular data type. The syntax in C Programming:
 Example:
 ```
