@@ -45,7 +45,7 @@ Syntax:
 dynamic_cast <new_type>(Expression)
 ```
 ### Downcasting: 
-Casting a base class pointer (or reference) to a derived class pointer (or reference) is known as downcasting. In figure 1  casting from the Base class pointer/reference to the “derived class 1” pointer/reference showing downcasting (Base ->Derived class).
+Casting a base class pointer (or reference) to a derived class pointer (or reference) is known as downcasting.  casting from the Base class pointer/reference to the “derived class 1” pointer/reference showing downcasting (Base ->Derived class).
 
 
 ### Upcasting:
