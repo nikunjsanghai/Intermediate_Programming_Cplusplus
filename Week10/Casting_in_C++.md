@@ -160,7 +160,7 @@ int main()
 ```
 Output:
 ```
-not null
+Error:the operand of a runtime dynamic_cast must have a polymorphic type
 ```
 Explanation: In this program, there is one base class and two derived classes (Derived1, Derived2), here the base class pointer hold derived class 1 object (d1). At the time of dynamic_casting base class, the pointer held the Derived1 object and assigning it to derived class 1, assigned valid dynamic_casting. 
 
