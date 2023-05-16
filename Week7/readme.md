@@ -6,7 +6,7 @@
 - [Recursion Practice Problems](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week4/Practice_Problems.md)
 - [Space and Time Complexity](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/Space_and_Time_Complexity.md)
 ### Discussion 14
--[Space and Time Complexity Practice Problems](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/Big_O_Notation.md)
+- [Space and Time Complexity Practice Problems](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week6/Big_O_Notation.md)
 
 
 
