@@ -17,3 +17,4 @@ Handling approach for Duplicate values in the Binary Search tree:
 - We can keep the counter with the node and if we found the duplicate value, then we can increment the counter
 
 Reference Link: [geeksforgeeks](https://www.geeksforgeeks.org/introduction-to-binary-search-tree-data-structure-and-algorithm-tutorials/)
+Order: 15,20,9,36,40,27
