@@ -6,6 +6,6 @@
 - [class_demo]()
 ### Discussion 20
 - [trees_in_C++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week10/binary_seach_tree.md)
-
+- [tree_visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
 
 HW10 due on Saturday 
