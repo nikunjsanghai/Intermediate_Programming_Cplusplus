@@ -5,7 +5,7 @@
 - [hash_table_in_C++]()
 - [class_demo]()
 ### Discussion 20
-- [trees_in_C++]()
+- [trees_in_C++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week10/binary_seach_tree.md)
 
 
 HW10 due on Saturday 
