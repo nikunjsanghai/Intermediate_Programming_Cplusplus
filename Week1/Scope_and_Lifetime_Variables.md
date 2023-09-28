@@ -1,7 +1,7 @@
 Scope and Lifetime of a variable are two different things.
 ### What is Scope?
 Scope is the region or section of code where a variable can be accessed.
-### What is a lifetime?
+### What is a Lifetime?
 Lifetime is the time duration where an object/variable is in a valid state.
 
 ### Example
