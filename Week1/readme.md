@@ -1,5 +1,5 @@
 ### Week 1
-This read me is planned to give you the tools need to solve and submit the homework       
+We want to revise things for PIC 10A in Week1        
 
 **Discussion 1**
 -
