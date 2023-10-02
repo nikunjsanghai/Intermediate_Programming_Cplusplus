@@ -9,6 +9,13 @@ We want to revise things for PIC 10A in Week1
 - [Arrays](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/arrays.md)
 - [Classes and Header Files](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Classes_and_Header_Files.md)
 
+**Discussion 2** - Week 1
+- [Functions in C++]()
+- [Function Overloading in C++]()
+- [Pointers and References]()
+- [array decay and pointer to function]()
+- [demo_code in c++]()
+
 
 
 
