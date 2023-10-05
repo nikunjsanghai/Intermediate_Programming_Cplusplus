@@ -10,11 +10,11 @@ We want to revise things for PIC 10A in Week1
 - [Classes and Header Files](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Classes_and_Header_Files.md)
 
 **Discussion 2** - Week 1
-- [Functions in C++]()
-- [Function Overloading in C++]()
-- [Pointers and References]()
-- [array decay and pointer to function]()
-- [demo_code in c++]()
+- [Function Overloading in C++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_overloading.md)
+- [Functions Overloading with respect to const C++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/Function_Overloading_with_Const.md)
+- [Pointers and References](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/Pointers_and_References.md)
+- [array decay and pointer to function](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week2/Pointer_to_Arrays_and_array_Decays.md)
+- [demo_code in c++](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/blob/main/Week1/demo_code.md)
 
 
 
