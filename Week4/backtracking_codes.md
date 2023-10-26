@@ -30,11 +30,7 @@ void helper(std::vector<std::string>& temp,std::vector<std::string>& key, std::s
 };
 ```
 ### Question 2
-
-
-
-
-
+![permutations_backtracking](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/assets/103468688/0aef9af2-1efd-4ae2-96e5-c3264bbf3d81)
 ```
 class Solution {
 public:
@@ -87,10 +83,7 @@ public:
 
 
 ### Question 3
-
-
-
-
+![permutations_backtracking](https://github.com/nikunjsanghai/Intermediate_Programming_Cplusplus/assets/103468688/837ba5ed-2f34-4aaa-b3e7-ac356a3c2e0c)
 
 ```
 class Solution {
